@@ -1,0 +1,43 @@
+---
+title: Challenges
+---
+
+You can bring your own challenge for your team to work on… but the best challenges at the hackathon are from our community partners!
+
+## Technology Partners
+
+Thanks to following partners for providing access, mentors and learning resources for their tools…
+
+## Community Partners
+
+## Featured Challanges
+
+This section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.
+
+### Create a one-stop digital guide to starting a restaurant in Philadelphia​
+
+::: {.callout-tip title="Partner:The Merchants Fund" collapse="true"}
+
+**About the non-profit**: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.
+
+:::
+
+**Goal:** Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.
+
+The Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.
+
+### Build a tool for advocates to calculate SNAP benefits for clients​
+
+
+::: {.callout-tip title="Partner: Community Legal Services" collapse="true"}
+
+
+Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits.
+
+:::
+
+**Goal:** Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.
+
+Thousands of families in Philadelphia depend on assistance to access healthy food.  Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.
+
+Some advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs.

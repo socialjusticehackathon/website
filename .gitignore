@@ -1,0 +1,6 @@
+# vim ----
+.*.sw[po]
+
+# quarto specific ----
+/.quarto/
+_site
