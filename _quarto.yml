@@ -5,7 +5,8 @@ website:
   title: "SJH-Phl"
   navbar:
     left:
-      - about.qmd
+      - href: about.qmd
+        text: About
       - challenges.qmd
       - venue.qmd
       - schedule.qmd

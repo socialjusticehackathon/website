@@ -1,5 +1,4 @@
 ---
-title: About
 pagetitle: "Philly Social Justice Hackathon"
 page-layout: custom
 section-divs: false
