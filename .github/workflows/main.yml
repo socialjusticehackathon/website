@@ -16,6 +16,8 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: "1.4.537"
+      - run: |
+          quarto render
 
       # push to netlify -------------------------------------------------------
 
