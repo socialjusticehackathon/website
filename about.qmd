@@ -19,7 +19,7 @@ Philadelphia<br> Social Justice<br> Hackathon
 :::
 
 
-:::::: {.content-block}
+:::::: {.content-block .hero-banner-cta}
 
 
 ::: {.list .grid}

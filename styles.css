@@ -126,6 +126,10 @@ html { font-family: 'Inter', sans-serif; }
   height: 400px;
 }
 
+.hero-banner-cta {
+  margin-top: -50px;
+}
+
 .hero-github-links {
   padding-top: 30px;
 }
