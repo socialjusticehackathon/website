@@ -63,7 +63,7 @@ Help us create impactful projects. Or volunteer as a project mentor.
 
 ::: {.d-flex .justify-content-center }
 
-[Get Involved](#get-involved){.btn .btn-action .btn-primary .btn-action-primary }
+[Get Involved](#partners){.btn .btn-action .btn-primary .btn-action-primary }
 
 :::
 
@@ -89,7 +89,7 @@ Is this a call for sponsorship? A link to a discord? A link to our posts page?
 ::: {.d-flex .justify-content-center }
 
 
-[Sponsor](#community){.btn .btn-action .btn-primary .btn-action-primary }
+[Sponsor](#sponsor){.btn .btn-action .btn-primary .btn-action-primary }
 
 :::
 
@@ -138,12 +138,28 @@ Together, attendees will develop technology solutions that respond to the specif
 
 ## Organizers
 
-## Our Partners
+## Our Partners {#partners}
 
-## Become a Sponsor
+## Become a Sponsor {#sponsor}
 
-## Ready to Join Us? {.register}
+## Ready to Join Us? {#register}
 
 Register Now
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ::::::
