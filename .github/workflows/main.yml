@@ -52,9 +52,9 @@ jobs:
           npm install -g netlify-cli
           # push main branch to production, others to preview --
           if [ "${ALIAS}" == "main" ]; then
-            netlify deploy --dir=docs/_site --alias="main"
+            netlify deploy --dir=_site --alias="main"
           else
-            netlify deploy --dir=docs/_site --alias="${ALIAS}"
+            netlify deploy --dir=_site --alias="${ALIAS}"
           fi
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -76,4 +76,4 @@ jobs:
         if: github.event_name == 'release'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site
+          publish_dir: _site
