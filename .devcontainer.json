@@ -21,6 +21,6 @@
     }
   },
   "onCreateCommand": {
-    "prep-python": "python3 -m pip install --upgrade setuptools jupyterlab ipython jupyterlab-quarto -e '.[dev]'"
+    "prep-python": "python3 -m pip install --upgrade setuptools jupyterlab ipython"
   }
 }
