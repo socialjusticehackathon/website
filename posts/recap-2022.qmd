@@ -1,8 +1,149 @@
 ---
-title: "2022 Hackathon Recap"
+title: "Philly Legal Hackathon 2022 Project Recap"
 author: "Hackathon Committee"
 date: "2024-01-18"
 categories: [news]
 ---
 
-# Here is where the blogpost will go
+# Background
+
+In October of 2022, all the law schools in the Greater Philadelphia area teamed up, along with civic and legal hacker groups, and community legal providers, to host a Social Justice Hackathon. This 36-hour event brought together students, programmers, and other “civic-minded hackers” – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+
+The opening night started a keynote talk from Claudia Johnson of Pro Bono Net. It was followed with 9 project pitches by community partners — ranging from judge performance, to tangled titles, to immigrant resources, and more. Afterwards, participants formed groups around the projects that interested them.
+
+[https://twitter.com/ssjhackathon/status/1586130524006924288](https://twitter.com/ssjhackathon/status/1586130524006924288)
+
+[https://twitter.com/MitchInTheCloud/status/1586132733671411712](https://twitter.com/MitchInTheCloud/status/1586132733671411712)
+
+The following day, participants met on Drexel’s campus and spent the whole day working on their projects. We were fortunate to have mentors from Community Legal Services, Philadelphia Legal Assistance, and a number of technology sponsors – including Josef, Neota, Qlik, and Unicort.
+
+<TWEET OR SCREENSHOT OF PEOPLE WORKING ON THEIR PROJECTS>
+
+On the third day, participants presented their projects. In this post, we’ll review each project, and what they did.
+
+<INCLUDE REMAINING SPONSORS HERE OR AT THE END>
+
+# Projects
+
+## Raising the bar (Judge Retention Analysis)
+
+(copied from https://devpost.com/software/judge-retention-analysis-app) 
+
+**Participants:** Jerome Barnes, Brendan Downs, Jamaal Green, Alisha Fagg, Michael Furey, Eric Holloway, Shutian Ma, Aunja Richards, Harshool Rokade, Danielle Scaramella, Brandon Schefstad, Rishabh Sharma, Sri Suderson Thopey Ganesh, Long Tran, Grace Youngblood
+
+
+In Pennsylvania, we elect our judges. Judge elections are low information and little information is available for voters to make choices. Criminal court judges have 10-year terms in Philadelphia County. Therefore, a decision to retain an elected judge has a long-term impact on our criminal justice system. So what can one do as a concerned citizen to become better informed? Thankfully, court docket data is public data. 
+
+Using pre-assembled, de-identified court docket data, this project built a dashboard to shed light on how judges are performing their jobs. This dashboard enables Philadelphia voters to make more informed choices about what judges to vote to retain on our courts.
+
+
+What did they do?
+
+* The project created the website [raiseourbar.com](https://raiseourbar.com) ([github repo here](https://github.com/SJHPHL-Challenge-10/Challenge-10))
+* [Presentation on youtube (00:54:23)](https://youtu.be/7wWVicB98Bk?si=C2WOJ8c6uNhzIc8d&t=3263)
+
+## Tangled Titles with A2J Author
+(Copied from https://github.com/CCALI/untangledtitles)
+
+**Participants:** Tobias Nteireho
+
+The Center for Legal Services’ homeownership unit helps its clients resolve tangled title disputes. A tangled title dispute occurs when the ownership of a house is disputed. Filling out the tangled title forms manually is tedious, repetitive, and time-consuming work.
+
+This team automated part of this process by creating a guided interview. The interview generates documents needed as part of resolving a tangled title dispute. This automation can save hundreds of hours a year for advocates, who will be able to spend that saved time on serving more low-income Philadelphians.
+
+* [Github repo](https://github.com/CCALI/untangledtitles)
+* [Presentation on youtube (00:00:35)](https://youtu.be/7wWVicB98Bk?si=b6v3-C_cT2LM3wGj&t=35)
+
+## Friends in Deed
+**Participants:** Liora Lebowitz, Eric Riese
+
+This project worked on improving the Deed-o-matic, a tool created by Jonathan Pyle for Community Legal Services. The Deed-o-Matic is a guided interview web application, which allows legal service providers to more quickly draft deeds for low-income clients.
+
+This project focused on two improvements to the Deed-o-Matic: automatically reading information from an official deed into the application, and automatically retrieving deeds from public records.
+
+* [Presentation on youtube (00:11:51)](https://youtu.be/7wWVicB98Bk?si=WJ7hVBVILrzPOMaf&t=710)
+
+## CLS Voice Tracker
+**Participant:** Carl Stanton
+
+**Background**
+
+CLS requested a voice command system for time tracking. Lawyers are required to record time in 6 minute increments for each case they work on. Having to constantly log into the online system breaks their workflow.
+
+**What they built**
+
+Developed a voice activated system for tracking case time that uses a custom python voice extension for python using the Talon API. 
+
+Custom voice commands are used to record timestamps for when work is started and stopped on a case. 
+
+* The "start tracking [case]" command records the start time into a database. 
+* The "stop tracking [case]" command records and end time, and write the start and stop times into a time_records table. 
+* If "start tracking" is done for a new case, the existing tracked cases will be ended and moved to the time_records table for future reporting. 
+
+The system allows Case numbers to be mapped to names for easier commanding. The next steps would be to build an add-on to log into the legal server website and send the reported time data.
+
+**Project Links**
+
+* [GitHub Repo](https://github.com/gondilon/cls_voice_time)
+* [Slides](https://docs.google.com/presentation/d/186vk4mSz7K0B7K8BE_0MMbVyblJZz81zXSmijub1HfM/edit#slide=id.p)
+* [Presentation on youtube (00:25:47)](https://youtu.be/7wWVicB98Bk?si=QoWP-A_Kc2BbaDYP&t=1547)
+
+## New Immigrant Resource Finder
+
+**Participants:** Susan Daniel, Eric Holloway Sr., Eric Holloway Jr., Michael Rojas Sandoval, Linda Zhang, Mandy Zhang, Julie McIntyre, Kevin Mulcahy
+
+**Background**
+
+The Newcomer Immigrant Learning Collaborative is a cross-sector collaborative comprising providers in the mental health, medical, education, law, and child welfare systems, who work together to support newcomer immigrant youth and their families. 
+
+There are many newly arrived immigrants in Philadelphia who cannot access particular services and benefits due to immigration status. There are organizations in Philadelphia that provide services to immigrant families, across a range of immigration statuses, languages, and neighborhoods. These organizations need a tool that compiles information about their services into one place and provides an interactive, intuitive, and linguistically accessible way to filter relevant resources for the individual seeking assistance. 
+
+**What they built**
+
+This tool guides newly arrived immigrants or service providers who support them through a simple series of questions and leads to a final report with relevant, accessible programs for the newly-arrived immigrant to contact. The tool is interactive and intuitive with translation through Google translate for immigrant community member use.
+
+The solution was built using Neota, a no-code legal platform to store information about organizations and provide a listing of relevant organizations, based on user input. 
+
+User input is gathered through a questionnaire, and used by the program to generate the output efficiently and quickly, without storing user input and personal information.
+
+The program uses a three-step validation system consisting of three decision trees to simultaneously validate the input information. In this process of validation, the program checks input information against the criteria in the decision trees to see if any organization in the database meets the requirements. It then generates a report of appropriate services.
+
+The technical inspiration came from existing projects, such as a Neota-based project for legal services in South Carolina, and local Pennsylvania resources, such as Youth Matters Philly and Pasa La Voz.
+
+**Project Links**
+
+* Try it: [Georgetown.neotalogic.com](https://georgetown.neotalogic.com/a/philly-immigrant-resources-guide)
+* [View presentation on youtube (00:38:24)](https://youtu.be/7wWVicB98Bk?si=XrKg0Z1COk_wWFlG&t=2304)
+
+## Restaurant Startup Advisor
+
+**Participants:** Stanley Griggs, II
+
+**Background**
+
+Starting a restaurant can be a gateway to financial growth in Philadelphia for many. A small business such as a restaurant can help families new to our area to set down roots in our communities. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.
+
+**Solution Design**
+
+Create an interactive one-stop digital guide to starting a restaurant in Philadelphia with strong support for internationalization and other forms of digital accessibility.
+
+**Project Links**
+* [Presentation on youtube (1:10:26)](https://youtu.be/7wWVicB98Bk?si=QZfV-a5tcK9U0ZKz&t=4226)
+
+## Online Dispute Resolution for Security Deposits
+
+**Participants:** Javier Martinez and Chris Collins
+
+**Background**
+
+There is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.
+
+**What they built**
+
+Develop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.
+
+
+**Project Links**
+* [Escrow.ritza.repl.co](https://escrow.ritza.repl.co/)
+* [GitHub Repo](https://github.com/javmart/PhillySocialJusticeHackathon)
+* [Presentation on youtube (1:23:18)](https://youtu.be/7wWVicB98Bk?si=IVhaij161Rc-sbff&t=4998)
