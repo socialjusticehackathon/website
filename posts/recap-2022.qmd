@@ -27,7 +27,7 @@ On the third day, participants presented their projects. In this post, we’ll r
 
 ## Raising the bar (Judge Retention Analysis)
 
-(copied from https://devpost.com/software/judge-retention-analysis-app) 
+(copied from [https://devpost.com/software/judge-retention-analysis-app](https://devpost.com/software/judge-retention-analysis-app)) 
 
 **Participants:** Jerome Barnes, Brendan Downs, Jamaal Green, Alisha Fagg, Michael Furey, Eric Holloway, Shutian Ma, Aunja Richards, Harshool Rokade, Danielle Scaramella, Brandon Schefstad, Rishabh Sharma, Sri Suderson Thopey Ganesh, Long Tran, Grace Youngblood
 
@@ -43,7 +43,7 @@ What did they do?
 * [Presentation on youtube (00:54:23)](https://youtu.be/7wWVicB98Bk?si=C2WOJ8c6uNhzIc8d&t=3263)
 
 ## Tangled Titles with A2J Author
-(Copied from https://github.com/CCALI/untangledtitles)
+(Copied from [https://github.com/CCALI/untangledtitles](https://github.com/CCALI/untangledtitles))
 
 **Participants:** Tobias Nteireho
 
