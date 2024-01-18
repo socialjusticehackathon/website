@@ -21,7 +21,7 @@ quarto preview
 
 The site deploys automatically whenever a commit is made on the main branch.
 
-* https://machow.github.io/philly-social-justice-hackathon
+* https://socialjusticehackathon.github.io/website
 
 Whenver you make a PR, a link to a preview should be posted in the PR.
 This allows us to see any changes before pushing them live on the internet.
