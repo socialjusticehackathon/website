@@ -37,7 +37,7 @@ In Pennsylvania, we elect our judges. Judge elections are low information and li
 Using pre-assembled, de-identified court docket data, this project built a dashboard to shed light on how judges are performing their jobs. This dashboard enables Philadelphia voters to make more informed choices about what judges to vote to retain on our courts.
 
 
-What did they do?
+**What did they do?**
 
 * The project created the website [raiseourbar.com](https://raiseourbar.com) ([github repo here](https://github.com/SJHPHL-Challenge-10/Challenge-10))
 * [Presentation on youtube (00:54:23)](https://youtu.be/7wWVicB98Bk?si=C2WOJ8c6uNhzIc8d&t=3263)
@@ -128,6 +128,7 @@ Starting a restaurant can be a gateway to financial growth in Philadelphia for m
 Create an interactive one-stop digital guide to starting a restaurant in Philadelphia with strong support for internationalization and other forms of digital accessibility.
 
 **Project Links**
+
 * [Presentation on youtube (1:10:26)](https://youtu.be/7wWVicB98Bk?si=QZfV-a5tcK9U0ZKz&t=4226)
 
 ## Online Dispute Resolution for Security Deposits
@@ -144,6 +145,7 @@ Develop a system that creates an escrow contract that holds the security deposit
 
 
 **Project Links**
+
 * [Escrow.ritza.repl.co](https://escrow.ritza.repl.co/)
 * [GitHub Repo](https://github.com/javmart/PhillySocialJusticeHackathon)
 * [Presentation on youtube (1:23:18)](https://youtu.be/7wWVicB98Bk?si=IVhaij161Rc-sbff&t=4998)
