@@ -17,7 +17,7 @@ Philadelphia<br> Social Justice<br> Hackathon
 </h1>
 :::
 
-```{r}
+```{r workspace}
 library(htmltools)
 
 add_card <- function(title, body, button_text, button_link) {
