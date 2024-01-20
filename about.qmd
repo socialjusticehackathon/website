@@ -50,8 +50,7 @@ add_card <- function(title, body, button_text, button_link) {
 :::::: {.content-block .hero-banner-cta}
 :::: {.columns}
 ::: {.column width="33%"}
-```{r}
-# as colmuns ----
+```{r free-to-attend}
 add_card(
   title = "Free to Attend", 
   body = 
@@ -64,7 +63,7 @@ add_card(
 :::
 
 ::: {.column width="33%"}
-```{r}
+```{r community-driven}
 add_card(
   title = "Community Driven", 
   body = 
@@ -77,7 +76,7 @@ add_card(
 :::
 
 ::: {.column width="33%"}
-```{r}
+```{r something-else}
 add_card(
   title = "Something Else Here", 
   body = 
