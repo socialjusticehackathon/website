@@ -121,18 +121,3 @@ Registration link coming soon!
 Contact us to sponsor our event!
 
 ::::::
-
-
-
-```{r}
-#| eval: false
-
-# div(
-#   class = "hero-banner text-center",
-#   h1(
-#     class = "text-center hero-title",
-#    HTML("Philadelphia <br> Social Justice <br> Hackathon")
-#   )
-# )
-  
-```
