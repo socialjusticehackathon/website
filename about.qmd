@@ -22,7 +22,6 @@ library(htmltools)
 
 add_card <- function(title, body, button_text, button_link) {
   div(
-    class = "card border-2 rounded-3 g-col-12 g-col-md-12 g-col-lg-4 mb-2",
     class = "card border-2 rounded-3",
     style = "margin-left:10px; margin-right:10px;",
     div(
