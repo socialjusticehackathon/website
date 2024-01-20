@@ -19,7 +19,7 @@ Philadelphia Social Justice Hackathon
 >>>>>>> 3e77578 (Use `.columns` over `.grid`)
 :::
 
-```{r}
+```{r workspace}
 library(htmltools)
 
 add_card <- function(title, body, button_text, button_link) {
