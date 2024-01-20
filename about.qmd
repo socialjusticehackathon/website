@@ -10,11 +10,13 @@ execute:
 ---
 
 ::: {.hero-banner .text-center}
-
 <h1 class="text-center hero-title">
 Philadelphia Social Justice Hackathon
 </h1>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3e77578 (Use `.columns` over `.grid`)
 :::
 
 ```{r}
@@ -23,13 +25,15 @@ library(htmltools)
 add_card <- function(title, body, button_text, button_link) {
   div(
     class = "card border-2 rounded-3 g-col-12 g-col-md-12 g-col-lg-4 mb-2",
+    class = "card border-2 rounded-3",
+    style = "margin-left:10px; margin-right:10px;",
     div(
       class = "card-body",
       # title
       tags$section(class = "card-title text-center", h5(title)),
       # body
       br(),
-      p(body),
+      p(body, style = "height: 95px;"),
       br(),
       # button
       div(
@@ -45,10 +49,12 @@ add_card <- function(title, body, button_text, button_link) {
 }
 ```
 
-:::::: {.content-block .hero-banner-cta}
 
-::: {.list .grid}
+:::::: {.content-block .hero-banner-cta}
+:::: {.columns}
+::: {.column width="33%"}
 ```{r}
+# as colmuns ----
 add_card(
   title = "Free to Attend", 
   body = 
@@ -56,9 +62,11 @@ add_card(
     or affiliation with an organization or university.", 
   button_text = "Register", 
   button_link = "#register"
-)
+) #|> view_ui()
 ```
+:::
 
+::: {.column width="33%"}
 ```{r}
 add_card(
   title = "Community Driven", 
@@ -69,7 +77,9 @@ add_card(
   button_link = "#partners"
 ) 
 ```
+:::
 
+::: {.column width="33%"}
 ```{r}
 add_card(
   title = "Something Else Here", 
@@ -78,10 +88,10 @@ add_card(
     A link to our posts page?", 
   button_text = "Sponsor", 
   button_link = "#sponsor"
-) 
+) #|> view_ui()
 ```
 :::
-
+::::
 ::::::
 
 <!-- /HERO BANNER -->
@@ -90,23 +100,22 @@ add_card(
 
 ## About
 
-::: {.grid}
+:::: {.columns}
 
-::: {.g-col-lg-8 .g-col-12}
-
+::: {.column width="70%"}
 The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
 
 Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
 
 **The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
-
 :::
 
-:::{.g-col-lg-4 .g-col-8 .g-start-3}
+::: {.column width="30%"}
 ![](assets/about-page_hero-bg-img-1.jpeg)
 :::
 
-:::
+::::
+
 
 ## Ready to Join Us? {#register}
 
