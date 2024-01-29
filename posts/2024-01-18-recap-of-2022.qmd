@@ -36,7 +36,7 @@ On the third day, participants presented their projects. In this post, we’ll r
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Last but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/Nq0exQ0Kbo">pic.twitter.com/Nq0exQ0Kbo</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586811217959608330?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
 
-![](sponsors.png)
+![](images/sponsors.png)
 
 # Projects
 
