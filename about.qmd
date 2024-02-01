@@ -51,7 +51,7 @@ add_info_card <- function(title, body, button_text, button_link) {
 <!-- HERO BANNER -->
 
 ::: {.hero-banner .text-center}
-```{r}
+```{r hero-banner}
 h1(
   class = "text-center hero-title",
   "Philadelphia", br(), "Social Justice", br(), "Hackathon"
