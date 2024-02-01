@@ -16,7 +16,7 @@ execute:
 library(htmltools)
 library(shiny) # markdown()
 
-add_card <- function(title, body, button_text, button_link) {
+add_info_card <- function(title, body, button_text, button_link) {
   div(
     class = "card border-2 rounded-3",
     style = "margin-left:10px; margin-right:10px;",
@@ -59,7 +59,7 @@ h1(
 :::: {.columns}
 ::: {.column width="33%"}
 ```{r free-to-attend}
-add_card(
+add_info_card(
   title = "Free to Attend", 
   body = 
     "Free to attend and open to everyone, regardless of coding experience 
@@ -72,7 +72,7 @@ add_card(
 
 ::: {.column width="33%"}
 ```{r community-driven}
-add_card(
+add_info_card(
   title = "Community Driven", 
   body = 
     "Are you a justice advocate, public servant, or community legal provider?
@@ -85,7 +85,7 @@ add_card(
 
 ::: {.column width="33%"}
 ```{r something-else}
-add_card(
+add_info_card(
   title = "Something Else Here", 
   body = 
     "Is this a call for sponsorship? A link to a discord? 
@@ -143,7 +143,7 @@ organizers <- local({
 })
 
 
-profile_card <- function(person) {
+add_profile_card <- function(person) {
   info <- 
     organizers[organizers$name == person, ] |> 
     as.list()
@@ -187,7 +187,7 @@ profile_card <- function(person) {
 
 lapply(
   organizers$name, 
-  \(x) profile_card(x)
+  \(x) add_profile_card(x)
 ) |> 
   div(class = "grid-container")
 
