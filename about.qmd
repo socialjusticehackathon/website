@@ -3,24 +3,24 @@ pagetitle: "Philly Social Justice Hackathon"
 page-layout: custom
 section-divs: false
 toc: false
+anchor-sections: true
 aliases:
   - index.html
 execute: 
   echo: false
+  warning: false
 ---
+
 
 ::: {.hero-banner .text-center}
 <h1 class="text-center hero-title">
 Philadelphia Social Justice Hackathon
 </h1>
-<<<<<<< HEAD
-
-=======
->>>>>>> 3e77578 (Use `.columns` over `.grid`)
 :::
 
 ```{r workspace}
 library(htmltools)
+library(shiny) # markdown()
 
 add_card <- function(title, body, button_text, button_link) {
   div(
@@ -47,6 +47,18 @@ add_card <- function(title, body, button_text, button_link) {
   )
 }
 ```
+
+<!-- HERO BANNER -->
+
+::: {.hero-banner .text-center}
+```{r}
+h1(
+  class = "text-center hero-title",
+  "Philadelphia", br(), "Social Justice", br(), "Hackathon"
+)
+```
+
+:::
 
 
 :::::: {.content-block .hero-banner-cta}
@@ -86,7 +98,7 @@ add_card(
     A link to our posts page?", 
   button_text = "Sponsor", 
   button_link = "#sponsor"
-) #|> view_ui()
+)
 ```
 :::
 ::::
@@ -114,6 +126,75 @@ Together, attendees will develop technology solutions that respond to the specif
 
 ::::
 
+## The Format
+
+
+## Host Institutions
+
+## Organizers
+
+```{r organizer-gallery}
+#| output: asis
+
+organizers <- local({
+  df <- read.csv("assets/about--organizers.csv", na.strings = "-")
+  df[order(df$role, df$name), ]
+})
+
+
+profile_card <- function(person) {
+  info <- 
+    organizers[organizers$name == person, ] |> 
+    as.list()
+  
+  if (is.na(info$role)) {
+    info$role <- ""
+  }
+  
+  div(
+    class = "card border-2 rounded-3",
+    style = "margin:5px; padding: 10px;",
+    # image
+    tags$section(
+      class = "text-center",
+      htmltools::img(src = file.path("assets/organizers", info$img), height = "100px") |> 
+        a(href = info$linkedin)
+    ),
+    # name
+    tags$section(
+      class = "text-center",
+      a(info$name, href = info$linkedin),
+      style = "font-size: 1.2rem;"
+    ),
+    # role
+    tags$section(
+      class = "text-center",
+      info$role,
+      style = "font-size: 0.9rem; font-weight: bold; opacity: 0.85;" 
+          # should use color once style established  ^^^^^^^^^^^^^^
+    ),
+    # bio
+    tags$section(
+      class = "text-center",
+      shiny::markdown(info$bio), 
+      style = "font-size: 0.85rem; font-style: italic; opacity: 0.85;"
+          # should use color once style established    ^^^^^^^^^^^^^^
+    )
+  )
+}
+
+
+lapply(
+  organizers$name, 
+  \(x) profile_card(x)
+) |> 
+  div(class = "grid-container")
+
+```
+
+## Our Partners {#partners}
+
+## Become a Sponsor {#sponsor}
 
 ## Ready to Join Us? {#register}
 
