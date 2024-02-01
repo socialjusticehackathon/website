@@ -4,3 +4,4 @@
 # quarto specific ----
 /.quarto/
 _site
+.Rproj.user
