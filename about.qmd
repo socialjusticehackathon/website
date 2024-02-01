@@ -72,7 +72,7 @@ add_info_card(
     or affiliation with an organization or university.", 
   button_text = "Register", 
   button_link = "#register"
-) #|> view_ui()
+)
 ```
 :::
 
