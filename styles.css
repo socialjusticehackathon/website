@@ -138,3 +138,17 @@ html { font-family: 'Inter', sans-serif; }
   font-size: 64px;
   background-color: #FFFFFF77;
 }
+
+/* Gallery */
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.gird-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
