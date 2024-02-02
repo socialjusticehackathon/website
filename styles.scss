@@ -1,0 +1,105 @@
+/*-- scss:defaults --*/
+
+// These define the core bootswatch theme styles
+// see https://github.com/thomaspark/bootswatch/blob/v5/dist/darkly/_variables.scss
+
+// for how the darkly theme sets variables
+$body-bg: #6D157A;
+$body-color: white;
+$navbar-bg: #6D157A;
+$primary: white;
+
+// this is a rough way to override very specific styles, that are not
+// straightforward to change in bootswatch. I've set it like this
+// to replicate the original sites button hover style.
+.btn.btn-primary {
+  color: #CE66C1;
+  font-weight: 600;
+  --bs-btn-hover-bg: #CE66C1;
+  --bs-btn-hover-color: white;
+}
+
+/* css styles */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+:root {
+  --bs-body-font-family: inter;
+  --bs-body-font-size: 16px;
+}
+
+#quarto-header .nav-link {
+  font-size: 24px;
+}
+
+/* INDEX PAGE ------------------------------------------ */
+
+/*
+ * Buttons
+*/
+
+.btn-action {
+  min-width: 165px;
+  border-radius: 30px;
+  border: none;
+}
+
+/* content block */
+
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.feature-blocks .grid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-banner {
+  background-image: url('./assets/about-page_hero-banner.svg');
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.hero-banner-cta {
+  margin-top: -50px;
+
+  .card {
+    border-color: white; 
+  }
+}
+
+.hero-github-links {
+  padding-top: 30px;
+}
+
+.hero-title {
+  font-size: 64px;
+  margin-bottom: 5rem;
+}
+
+.sponsor-placeholder {
+    justify-self: center;
+    grid-column: 1 / -1;
+}
+
+@media(min-width: 900px) {
+    .content-block {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content-block {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

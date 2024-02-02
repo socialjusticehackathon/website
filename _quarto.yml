@@ -13,13 +13,9 @@ website:
       - posts/index.qmd
     right:
       - icon: github
-        href: https://github.com/machow/philly-social-justice-hackathon
+        href: https://github.com/socialjusticehackathon/
       - icon: twitter
         href: https://twitter.com/ssjhackathon
 format:
   html:
-    theme: cosmo
-    css: styles.css
-
-
-
+    theme: styles.scss
