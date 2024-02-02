@@ -7,9 +7,6 @@ website:
     left:
       - href: about.qmd
         text: About
-      - challenges.qmd
-      - venue.qmd
-      - schedule.qmd
       - posts/index.qmd
     right:
       - icon: github
