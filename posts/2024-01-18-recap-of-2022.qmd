@@ -1,0 +1,179 @@
+---
+title: "Philly Legal Hackathon 2022 Project Recap"
+author: "Hackathon Committee"
+date: "2024-01-18"
+categories: [news]
+toc: true
+---
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+# Background
+
+In October of 2022, all the law schools in the Greater Philadelphia area teamed up, along with civic and legal hacker groups, and community legal providers, to host a Social Justice Hackathon. This 36-hour event brought together students, programmers, and other “civic-minded hackers” – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+
+## Day 1
+
+The opening night started with a keynote talk from Claudia Johnson of Pro Bono Net. It was followed with 9 project pitches by community partners — ranging from judge performance, to tangled titles, to immigrant resources, and more. Afterwards, participants formed groups around the projects that interested them.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are so excited to see so many people here at Quorum for our kick off! Currently hearing from Claudia Johnson, our keynote speaker!<br>“I believe that justice is a movement… a movement requires more than just lawyers, it requires everyone” <a href="https://t.co/53tnwty0OK">pic.twitter.com/53tnwty0OK</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586130524006924288?ref_src=twsrc%5Etfw">October 28, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">it must be the <a href="https://twitter.com/hashtag/zeitgeist?src=hash&amp;ref_src=twsrc%5Etfw">#zeitgeist</a> this was the <a href="https://twitter.com/hashtag/thesis?src=hash&amp;ref_src=twsrc%5Etfw">#thesis</a> of my <a href="https://twitter.com/hashtag/keynote?src=hash&amp;ref_src=twsrc%5Etfw">#keynote</a> for <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> our <a href="https://twitter.com/hashtag/Justice?src=hash&amp;ref_src=twsrc%5Etfw">#Justice</a> movement needs more than lawyers. We need those who have been harmed by <a href="https://twitter.com/hashtag/systemic?src=hash&amp;ref_src=twsrc%5Etfw">#systemic</a> inequalities at the decision and design tables to actually create relevant and <a href="https://twitter.com/hashtag/safe?src=hash&amp;ref_src=twsrc%5Etfw">#safe</a> <a href="https://twitter.com/hashtag/techforgood?src=hash&amp;ref_src=twsrc%5Etfw">#techforgood</a> that responds <a href="https://t.co/0Q6eQs5KjU">https://t.co/0Q6eQs5KjU</a></p>&mdash; C.Johnson (@C2AJ) <a href="https://twitter.com/C2AJ/status/1587452841421164558?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Hope doesn’t lead to action, action leads to hope” Claudia Johnson quotes Cornell West at the <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/x5Nf02RcHg">pic.twitter.com/x5Nf02RcHg</a></p>&mdash; Mitch Palski (@MitchInTheCloud) <a href="https://twitter.com/MitchInTheCloud/status/1586132733671411712?ref_src=twsrc%5Etfw">October 28, 2022</a></blockquote>
+
+## Day 2
+
+The following day, participants met on Drexel’s campus and spent the whole day working on their projects. We were fortunate to have mentors from Community Legal Services, Philadelphia Legal Assistance, and a number of technology sponsors – including Josef, Neota, Qlik, and Unicourt.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/hashtag/APhillyFirst?src=hash&amp;ref_src=twsrc%5Etfw">#APhillyFirst</a> Hackathon is getting intense as teams make the final touches on their projects... with pitches right after lunch, we&#39;re in the final stretch now!<br><br>Happy hacking! <a href="https://twitter.com/hashtag/Hackathon?src=hash&amp;ref_src=twsrc%5Etfw">#Hackathon</a> <a href="https://twitter.com/hashtag/LegalTech?src=hash&amp;ref_src=twsrc%5Etfw">#LegalTech</a> <a href="https://t.co/zdEcmlxhCS">pic.twitter.com/zdEcmlxhCS</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586746004275171330?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday was the BIGGEST day of <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> with speakers from our partners, work sessions across team and a delicious dinner sponsored by <a href="https://twitter.com/qlik?ref_src=twsrc%5Etfw">@qlik</a> - provided by El Merkury 😋 <br><br>Looking forward to seeing the presentations today! <a href="https://twitter.com/hashtag/LegalHack?src=hash&amp;ref_src=twsrc%5Etfw">#LegalHack</a> <a href="https://twitter.com/hashtag/TechForJustice?src=hash&amp;ref_src=twsrc%5Etfw">#TechForJustice</a> <a href="https://t.co/hniUFiIQk7">pic.twitter.com/hniUFiIQk7</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586742276436508673?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## Day 3
+
+On the third day, participants presented their projects. In this post, we’ll review each project, and what they did.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Last but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/Nq0exQ0Kbo">pic.twitter.com/Nq0exQ0Kbo</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586811217959608330?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+![](images/sponsors.png)
+
+# Projects
+
+## Raising the bar (Judge Retention Analysis)
+
+(copied from [https://devpost.com/software/judge-retention-analysis-app](https://devpost.com/software/judge-retention-analysis-app)) 
+
+**Participants:** Jerome Barnes, Brendan Downs, Jamaal Green, Alisha Fagg, Michael Furey, Eric Holloway, Shutian Ma, Aunja Richards, Harshool Rokade, Danielle Scaramella, Brandon Schefstad, Rishabh Sharma, Sri Suderson Thopey Ganesh, Long Tran, Grace Youngblood
+
+In Pennsylvania, we elect our judges. Judge elections are low information and little information is available for voters to make choices. Criminal court judges have 10-year terms in Philadelphia County. Therefore, a decision to retain an elected judge has a long-term impact on our criminal justice system. So what can one do as a concerned citizen to become better informed? Thankfully, court docket data is public data. 
+
+Using pre-assembled, de-identified court docket data, this project built a dashboard to shed light on how judges are performing their jobs. This dashboard enables Philadelphia voters to make more informed choices about what judges to vote to retain on our courts.
+
+**What did they do?**
+
+* The project created the website [raiseourbar.com](https://raiseourbar.com) ([github repo here](https://github.com/SJHPHL-Challenge-10/Challenge-10))
+* [Presentation on youtube (00:54:23)](https://youtu.be/7wWVicB98Bk?si=C2WOJ8c6uNhzIc8d&t=3263)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now we are hearing about “Raising The Bar,” an interactive website to inform voters about elected judges in Philadelphia. They hope voters can use this information to decide which judges to retain. <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/GQOLBcdsyG">pic.twitter.com/GQOLBcdsyG</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586805138223759368?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## Tangled Titles with A2J Author
+(Copied from [https://github.com/CCALI/untangledtitles](https://github.com/CCALI/untangledtitles))
+
+**Participants:** Tobias Nteireho
+
+The Center for Legal Services’ homeownership unit helps its clients resolve tangled title disputes. A tangled title dispute occurs when the ownership of a house is disputed. Filling out the tangled title forms manually is tedious, repetitive, and time-consuming work.
+
+This team automated part of this process by creating a guided interview. The interview generates documents needed as part of resolving a tangled title dispute. This automation can save hundreds of hours a year for advocates, who will be able to spend that saved time on serving more low-income Philadelphians.
+
+* [Github repo](https://github.com/CCALI/untangledtitles)
+* [Presentation on youtube (00:00:35)](https://youtu.be/7wWVicB98Bk?si=b6v3-C_cT2LM3wGj&t=35)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First up! One of our amazing vendor/mentors Tobias shared his <a href="https://twitter.com/A2JAuthor?ref_src=twsrc%5Etfw">@A2JAuthor</a> solution to handle tangled titles. <a href="https://t.co/8DxHOwbOwd">pic.twitter.com/8DxHOwbOwd</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586792042142879745?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## Friends in Deed
+**Participants:** Liora Lebowitz, Eric Riese
+
+This project worked on improving the Deed-o-matic, a tool created by Jonathan Pyle for Community Legal Services. The Deed-o-Matic is a guided interview web application, which allows legal service providers to more quickly draft deeds for low-income clients.
+
+This project focused on two improvements to the Deed-o-Matic: automatically reading information from an official deed into the application, and automatically retrieving deeds from public records.
+
+* [Presentation on youtube (00:11:51)](https://youtu.be/7wWVicB98Bk?si=WJ7hVBVILrzPOMaf&t=710)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Up second, it’s Liora and Eric with their Deed-o-Matic solution. This could cut the time needed to draft a deed in half! They created “Friend In Deed” an open source API to search the dept of records website <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/LafLg4nybl">pic.twitter.com/LafLg4nybl</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586794059615592452?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## CLS Voice Tracker
+**Participant:** Carl Stanton
+
+**Background**
+
+CLS requested a voice command system for time tracking. Lawyers are required to record time in 6 minute increments for each case they work on. Having to constantly log into the online system breaks their workflow.
+
+**What they built**
+
+Developed a voice activated system for tracking case time that uses a custom python voice extension for python using the Talon API. 
+
+Custom voice commands are used to record timestamps for when work is started and stopped on a case. 
+
+* The "start tracking [case]" command records the start time into a database. 
+* The "stop tracking [case]" command records and end time, and writes the start and stop times into a time_records table. 
+* If "start tracking" is done for a new case, the existing tracked cases will be ended and moved to the time_records table for future reporting. 
+
+The system allows Case numbers to be mapped to names for easier commanding. The next steps would be to build an add-on to log into the legal server website and send the reported time data.
+
+**Project Links**
+
+* [GitHub Repo](https://github.com/gondilon/cls_voice_time)
+* [Slides](https://docs.google.com/presentation/d/186vk4mSz7K0B7K8BE_0MMbVyblJZz81zXSmijub1HfM/edit#slide=id.p)
+* [Presentation on youtube (00:25:47)](https://youtu.be/7wWVicB98Bk?si=QoWP-A_Kc2BbaDYP&t=1547)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The third solution comes from Carl, who created a voice activated system for tracking case time. This project could help CLS track time accurately and help more Philadelphians <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/OfQbBFocOj">pic.twitter.com/OfQbBFocOj</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586797189728280578?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## New Immigrant Resource Finder
+
+**Participants:** Susan Daniel, Eric Holloway Sr., Eric Holloway Jr., Michael Rojas Sandoval, Linda Zhang, Mandy Zhang, Julie McIntyre, Kevin Mulcahy
+
+**Background**
+
+The Newcomer Immigrant Learning Collaborative is a cross-sector collaborative comprising providers in the mental health, medical, education, law, and child welfare systems, who work together to support newcomer immigrant youth and their families. 
+
+There are many newly arrived immigrants in Philadelphia who cannot access particular services and benefits due to immigration status. There are organizations in Philadelphia that provide services to immigrant families, across a range of immigration statuses, languages, and neighborhoods. These organizations need a tool that compiles information about their services into one place and provides an interactive, intuitive, and linguistically accessible way to filter relevant resources for the individual seeking assistance. 
+
+**What they built**
+
+This tool guides newly arrived immigrants or service providers who support them through a simple series of questions and leads to a final report with relevant, accessible programs for the newly-arrived immigrant to contact. The tool is interactive and intuitive with translation through Google translate for immigrant community member use.
+
+The solution was built using Neota, a no-code legal platform to store information about organizations and provide a listing of relevant organizations, based on user input. 
+
+User input is gathered through a questionnaire, and used by the program to generate the output efficiently and quickly, without storing user input and personal information.
+
+The program uses a three-step validation system consisting of three decision trees to simultaneously validate the input information. In this process of validation, the program checks input information against the criteria in the decision trees to see if any organization in the database meets the requirements. It then generates a report of appropriate services.
+
+The technical inspiration came from existing projects, such as a Neota-based project for legal services in South Carolina, and local Pennsylvania resources, such as Youth Matters Philly and Pasa La Voz.
+
+**Project Links**
+
+* Try it: [Georgetown.neotalogic.com](https://georgetown.neotalogic.com/a/philly-immigrant-resources-guide)
+* [View presentation on youtube (00:38:24)](https://youtu.be/7wWVicB98Bk?si=XrKg0Z1COk_wWFlG&t=2304)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CONGRATS to the Social Justice Hackathon Philadelphia team that created an app that guides immigrants in Philly. The young team (mostly high-schoolers &amp; college freshman!), took a top prize for their well-crafted app built in 1.5 days <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://twitter.com/hashtag/futureoflaw?src=hash&amp;ref_src=twsrc%5Etfw">#futureoflaw</a> <a href="https://twitter.com/hashtag/legaltech?src=hash&amp;ref_src=twsrc%5Etfw">#legaltech</a> <a href="https://twitter.com/hashtag/NoCode?src=hash&amp;ref_src=twsrc%5Etfw">#NoCode</a> <a href="https://t.co/8aO0shxpzd">pic.twitter.com/8aO0shxpzd</a></p>&mdash; Neota (@NeotaLogic) <a href="https://twitter.com/NeotaLogic/status/1589821161516695553?ref_src=twsrc%5Etfw">November 8, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The next ⏭️ team created an immigrant resources guide to help newly arrived immigrants to Philadelphia. This tool was created for The Newcomer Immigrant Youth Learning Collaborative! <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/H8abcZY75t">pic.twitter.com/H8abcZY75t</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586800737270599686?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## Restaurant Startup Advisor
+
+**Participants:** Stanley Griggs, II
+
+**Background**
+
+Starting a restaurant can be a gateway to financial growth in Philadelphia for many. A small business such as a restaurant can help families new to our area to set down roots in our communities. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.
+
+**Solution Design**
+
+Create an interactive one-stop digital guide to starting a restaurant in Philadelphia with strong support for internationalization and other forms of digital accessibility.
+
+**Project Links**
+
+* [Presentation on youtube (1:10:26)](https://youtu.be/7wWVicB98Bk?si=QZfV-a5tcK9U0ZKz&t=4226)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Starting a restaurant can be a gateway to financial growth in Philadelphia. Stanley worked with The Merchant Fund and <a href="https://twitter.com/NeotaLogic?ref_src=twsrc%5Etfw">@NeotaLogic</a> to create a guide to help someone start a restaurant in Philly. <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/LPwdCrZeAO">pic.twitter.com/LPwdCrZeAO</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586808557202292738?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
+
+## Online Dispute Resolution for Security Deposits
+
+**Participants:** Javier Martinez and Chris Collins
+
+**Background**
+
+There is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.
+
+**What they built**
+
+Develop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.
+
+**Project Links**
+
+* [Escrow.ritza.repl.co](https://escrow.ritza.repl.co/)
+* [GitHub Repo](https://github.com/javmart/PhillySocialJusticeHackathon)
+* [Presentation on youtube (1:23:18)](https://youtu.be/7wWVicB98Bk?si=IVhaij161Rc-sbff&t=4998)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Last but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! <a href="https://twitter.com/hashtag/SJHPHL?src=hash&amp;ref_src=twsrc%5Etfw">#SJHPHL</a> <a href="https://t.co/Nq0exQ0Kbo">pic.twitter.com/Nq0exQ0Kbo</a></p>&mdash; #SJHPHL Philly&#39;s First Social Justice Hackathon (@ssjhackathon) <a href="https://twitter.com/ssjhackathon/status/1586811217959608330?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote>
