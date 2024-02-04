@@ -22,28 +22,6 @@ Philadelphia Social Justice Hackathon
 ```{r workspace}
 library(htmltools)
 library(shiny) # markdown()
-
-add_info_card <- function(title, body, button_text, button_link) {
-  div(
-    class = "card border-2 rounded-3",
-    style = "margin-left:10px; margin-right:10px;",
-    div(
-      class = "card-body",
-      # title
-      tags$section(class = "card-title text-center", h5(title)),
-      # body
-      br(),
-      p(body, style = "height: 95px;"),
-      br(),
-      # button
-      div(
-        class = "d-flex justify-content-center",
-        tags$button(
-          class = "btn btn-action btn-primary btn-action-primary justify-content-center",
-          button_text,
-          onclick = button_link
-        )
-      )
 library(glue)
 
 general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
@@ -86,6 +64,30 @@ h1(
 :::: {.columns}
 ::: {.column width="33%"}
 ```{r free-to-attend}
+add_info_card <- function(title, body, button_text, button_link) {
+  general_card_div(
+    div(
+      class = "card-body",
+      # title
+      tags$section(class = "card-title text-center", h5(title)),
+      # body
+      br(),
+      p(body),
+      br()
+    ),
+    # button
+    div(
+      class = "d-flex justify-content-center mb-3",
+      #class = "card-footer",
+      tags$button(
+        class = "btn btn-action btn-primary btn-action-primary justify-content-center",
+        button_text,
+        onclick = button_link
+      )
+    )
+  )
+}
+
 add_info_card(
   title = "Free to Attend", 
   body = 
