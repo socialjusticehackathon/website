@@ -69,10 +69,6 @@ html { font-family: 'Inter', sans-serif; }
 
 .hero-banner-cta {
   margin-top: -50px;
-
-  .card {
-    border-color: white; 
-  }
 }
 
 .hero-github-links {
@@ -82,6 +78,11 @@ html { font-family: 'Inter', sans-serif; }
 .hero-title {
   font-size: 64px;
   margin-bottom: 5rem;
+}
+
+.sponsor-placeholder {
+    justify-self: center;
+    grid-column: 1 / -1;
 }
 
 @media(min-width: 900px) {
