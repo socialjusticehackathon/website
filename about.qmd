@@ -173,35 +173,37 @@ add_profile_card <- function(person) {
   if (is.na(info$role)) {
     info$role <- ""
   }
-  
-  div(
-    class = "card border-2 rounded-3",
-    style = "margin:5px; padding: 10px;",
-    # image
-    tags$section(
-      class = "text-center",
-      htmltools::img(src = file.path("assets/organizers", info$img), height = "100px") |> 
-        a(href = info$linkedin)
-    ),
-    # name
-    tags$section(
-      class = "text-center",
-      a(info$name, href = info$linkedin),
-      style = "font-size: 1.2rem;"
-    ),
-    # role
-    tags$section(
-      class = "text-center",
-      info$role,
-      style = "font-size: 0.9rem; font-weight: bold; opacity: 0.85;" 
-          # should use color once style established  ^^^^^^^^^^^^^^
-    ),
-    # bio
-    tags$section(
-      class = "text-center",
-      shiny::markdown(info$bio), 
-      style = "font-size: 0.85rem; font-style: italic; opacity: 0.85;"
-          # should use color once style established    ^^^^^^^^^^^^^^
+
+  general_card_div(
+    div(
+      class = "card-body text-center",
+      # image
+      a(
+          img(src = file.path("assets/organizers", info$img), height = "100px"),
+          href = info$linkedin
+      ),
+      # name
+      p(
+        class = "text-center mt-3",
+        a(info$name, href = info$linkedin),
+        style = "font-size: 1.2rem;"
+      ),
+      # role
+      p(
+        class = "text-center",
+        info$role,
+        style = "font-size: 0.9rem; font-weight: bold; opacity: 0.85;" 
+            # should use color once style established  ^^^^^^^^^^^^^^
+      ),
+      # bio
+      div(
+        style = "font-size: 0.9rem; font-style: italic; opacity: 0.85;",
+        p(
+          class = "text-center",
+          shiny::markdown(info$bio)
+              # should use color once style established    ^^^^^^^^^^^^^^
+        )
+      )
     )
   )
 }
