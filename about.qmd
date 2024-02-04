@@ -109,12 +109,13 @@ add_info_card(
 ::: {.column width="33%"}
 ```{r something-else}
 add_info_card(
-  title = "Something Else Here", 
+  title = "Volunteer for the event", 
   body = 
-    "Is this a call for sponsorship? A link to a discord? 
-    A link to our posts page?", 
-  button_text = "Sponsor", 
-  button_link = "#sponsor"
+    "Interested in helping us run the event itself? 
+    Great for those trying to provide excellent volunteer experiences
+    or to get hands-on experience running events.", 
+  button_text = "Volunteer", 
+  button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
 )
 ```
 :::
@@ -220,26 +221,12 @@ lapply(
 
 ## Our Partners {#partners}
 
-## Become a Sponsor {#sponsor}
+## Our Sponsors {#sponsor}
 
-## Ready to Join Us? {#register}
+:::{.sponsor-placeholder}
+![](posts/images/sponsors.png)
+:::
 
-Register Now
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+Contact us to sponsor our event!
 
 ::::::
