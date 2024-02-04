@@ -3,7 +3,7 @@ pagetitle: "Philly Social Justice Hackathon"
 page-layout: custom
 section-divs: false
 toc: false
-anchor-sections: true
+anchor-sections: true # not working?
 aliases:
   - index.html
 execute: 
@@ -14,6 +14,7 @@ execute:
 
 
 ```{r workspace}
+#| include: false
 library(htmltools)
 library(shiny) # markdown()
 library(glue)
@@ -50,7 +51,6 @@ h1(
   HTML("Philadelphia<br>Social Justice<br>Hackathon")
 )
 ```
-
 :::
 
 
@@ -143,8 +143,6 @@ Together, attendees will develop technology solutions that respond to the specif
 ## Organizers
 
 ```{r organizer-gallery}
-#| output: asis
-
 organizers <- local({
   df <- read.csv("assets/about--organizers.csv", na.strings = "-")
   df[order(df$role, df$name), ]
