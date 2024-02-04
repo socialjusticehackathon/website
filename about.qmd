@@ -60,10 +60,10 @@ h1(
 :::
 
 
-:::::: {.content-block .hero-banner-cta}
-:::: {.columns}
-::: {.column width="33%"}
-```{r free-to-attend}
+:::::: {.content-block}
+::: {.list .grid}
+      
+```{r info-cards}
 add_info_card <- function(title, body, button_text, button_link) {
   general_card_div(
     div(
@@ -96,11 +96,7 @@ add_info_card(
   button_text = "Register", 
   button_link = "#register"
 )
-```
-:::
 
-::: {.column width="33%"}
-```{r community-driven}
 add_info_card(
   title = "Community Driven", 
   body = 
@@ -108,12 +104,8 @@ add_info_card(
     Help us create impactful projects. Or volunteer as a project mentor.", 
   button_text = "Get Involved", 
   button_link = "#partners"
-) 
-```
-:::
+)
 
-::: {.column width="33%"}
-```{r something-else}
 add_info_card(
   title = "Volunteer for the event", 
   body = 
@@ -125,7 +117,6 @@ add_info_card(
 )
 ```
 :::
-::::
 ::::::
 
 <!-- /HERO BANNER -->
