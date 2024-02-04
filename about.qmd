@@ -8,6 +8,7 @@ aliases:
   - index.html
 execute: 
   echo: false
+  output: asis
   warning: false
 ---
 
