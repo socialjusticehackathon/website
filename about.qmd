@@ -197,7 +197,7 @@ lapply(
   organizers$name, 
   \(x) add_profile_card(x)
 ) |> 
-  div(class = "grid-container")
+  div(class = "list grid")
 
 ```
 
