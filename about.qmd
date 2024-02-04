@@ -144,6 +144,8 @@ Together, attendees will develop technology solutions that respond to the specif
 
 ## Host Institutions
 
+:::::: {.content-block}
+
 ## Organizers
 
 ```{r organizer-gallery}
@@ -206,6 +208,7 @@ lapply(
   div(class = "list grid")
 
 ```
+::::::
 
 ## Our Partners {#partners}
 
