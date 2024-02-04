@@ -47,7 +47,7 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r hero-banner}
 h1(
   class = "text-center hero-title",
-  "Philadelphia", br(), "Social Justice", br(), "Hackathon"
+  HTML("Philadelphia<br>Social Justice<br>Hackathon")
 )
 ```
 
