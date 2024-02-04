@@ -124,10 +124,8 @@ add_info_card(
 :::::: {.content-block}
 
 ## About
-
-:::: {.columns}
-
-::: {.column width="70%"}
+::: {.grid}
+::: {.g-col-lg-8 .g-col-12}
 The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
 
 Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
@@ -135,11 +133,11 @@ Together, attendees will develop technology solutions that respond to the specif
 **The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
 :::
 
-::: {.column width="30%"}
+:::{.g-col-lg-4 .g-col-8 .g-start-3}
 ![](assets/about-page_hero-bg-img-1.jpeg)
 :::
-
-::::
+:::
+::::::
 
 ## The Format
 
