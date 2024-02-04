@@ -38,7 +38,27 @@ add_info_card <- function(title, body, button_text, button_link) {
           onclick = button_link
         )
       )
+library(glue)
+
+general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
+  class_info <- 
+    paste(
+      "card",       # card class
+      # about card
+      "border-2",   # border-width = 2px
+      "rounded-3",  # border-radius = 0.3rem
+      "m-2",        # margin all sides: 0.5rem
+      # about grid placement
+      glue("g-col-lg-{12/lg}"), # when >=1200px use {lg} cols per card (ex. 3 across)
+      glue("g-col-md-{12/md}"), # when >= 992px use {md} cols per card (ex. 2 across)
+      glue("g-col-sm-{12/sm}"), # when >= 768px use {sm} cols per card (ex. 2 across)
+      glue("g-col-{12/xs}")     # when  < 576px use {xs} cols per card (ex. 1 across)
     )
+  
+  div(
+    class = class_info,
+    style = "border-color: white;",
+    ...
   )
 }
 ```
