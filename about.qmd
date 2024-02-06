@@ -49,7 +49,7 @@ Help us create impactful projects. Or volunteer as a project mentor.
 
 ::: {.d-flex .justify-content-center }
 
-[Get Involved](#partners){.btn .btn-action .btn-primary .btn-action-primary }
+[Get Involved](#sponsors){.btn .btn-action .btn-primary .btn-action-primary }
 
 :::
 
@@ -107,7 +107,11 @@ Together, attendees will develop technology solutions that respond to the specif
 
 ## Ready to Join Us? {#register}
 
-[Register Now]()
+Registration link coming soon!
+
+## Submit a Project
+
+[Submit a project with this form](http://tinyurl.com/sjhphlchallenge)
 
 ## Our Sponsors {#sponsors}
 
