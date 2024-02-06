@@ -10,31 +10,35 @@ Thanks to following partners for providing access, mentors and learning resource
 
 ## Community Partners
 
-## Featured Challanges
+:::{.callout-tip collapse="true"}
+::::{.callout-tip-header}
+Partner:The Merchants Fund
+::::
+::::{.callout-tip-container}
+**About the non-profit**: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.
+::::
+:::
+
+:::{.callout-tip}
+::::{.callout-tip-header}
+Partner: Community Legal Services
+::::
+::::{.callout-tip-container}
+**About the non-profit**: Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits.
+::::
+:::
+
+## Featured Challenges
 
 This section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.
 
 ### Create a one-stop digital guide to starting a restaurant in Philadelphia​
-
-::: {.callout-tip title="Partner:The Merchants Fund" collapse="true"}
-
-**About the non-profit**: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.
-
-:::
 
 **Goal:** Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.
 
 The Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.
 
 ### Build a tool for advocates to calculate SNAP benefits for clients​
-
-
-::: {.callout-tip title="Partner: Community Legal Services" collapse="true"}
-
-
-Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits.
-
-:::
 
 **Goal:** Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.
 

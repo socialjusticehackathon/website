@@ -7,20 +7,15 @@ aliases:
   - index.html
 ---
 
-<!-- HERO BANNER -->
-
 ::: {.hero-banner .text-center}
 
 <h1 class="text-center hero-title">
-Philadelphia<br> Social Justice<br> Hackathon
+Philadelphia Social Justice Hackathon
 </h1>
-
 
 :::
 
-
 :::::: {.content-block .hero-banner-cta}
-
 
 ::: {.list .grid}
 
@@ -31,11 +26,7 @@ Philadelphia<br> Social Justice<br> Hackathon
 ##### Free to Attend
 :::
 
-<br>
 Free to attend and open to everyone, regardless of coding experience or affiliation with an organization or university.
-
-<br>
-
 
 ::: {.d-flex .justify-content-center }
 
@@ -46,7 +37,6 @@ Free to attend and open to everyone, regardless of coding experience or affiliat
 :::::
 ::::
 
-
 :::: {.card .border-2 .rounded-3 .g-col-12 .g-col-md-12 .g-col-lg-4 .mb-2}
 ::::: {.card-body}
 
@@ -54,16 +44,12 @@ Free to attend and open to everyone, regardless of coding experience or affiliat
 ##### Community Driven
 :::
 
-<br>
 Are you a justice advocate, public servant, or community legal provider?
 Help us create impactful projects. Or volunteer as a project mentor.
 
-<br>
-
-
 ::: {.d-flex .justify-content-center }
 
-[Get Involved](#partners){.btn .btn-action .btn-primary .btn-action-primary }
+[Get Involved](#sponsors){.btn .btn-action .btn-primary .btn-action-primary }
 
 :::
 
@@ -75,39 +61,27 @@ Help us create impactful projects. Or volunteer as a project mentor.
 ::::: {.card-body}
 
 ::: {.card-title .text-center}
-##### Something Else Here
+##### Volunteer on the event
 :::
 
-<br>
-Is this a call for sponsorship? A link to a discord? A link to our posts page?
-
-<br>
-<br>
-<br>
-
+Interesting in helping us run the event itself? Great for those trying to provide excellent volunteer experiences or to get hands-on experience running events.
 
 ::: {.d-flex .justify-content-center }
 
 
-[Sponsor](#sponsor){.btn .btn-action .btn-primary .btn-action-primary }
+[Volunteer](https://forms.gle/2Nc41iEoTqveGCQU7){.btn .btn-action .btn-primary .btn-action-primary }
 
 :::
 
 :::::
+
 ::::
 
 :::
 
-
 ::::::
 
-
 <!-- /HERO BANNER -->
-
-
-
-
-
 
 :::::: {.content-block}
 
@@ -131,35 +105,16 @@ Together, attendees will develop technology solutions that respond to the specif
 
 :::
 
-## The Format
-
-
-## Host Institutions
-
-## Organizers
-
-## Our Partners {#partners}
-
-## Become a Sponsor {#sponsor}
-
 ## Ready to Join Us? {#register}
 
-Register Now
+Registration link coming soon!
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+## Submit a Project
+
+[Submit a project with this form](http://tinyurl.com/sjhphlchallenge)
+
+## Our Sponsors {#sponsors}
+
+Contact us to sponsor our event!
 
 ::::::

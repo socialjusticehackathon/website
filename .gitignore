@@ -4,3 +4,7 @@
 # quarto specific ----
 /.quarto/
 _site
+
+# RStudio specific ----
+.Rdata
+.Rhistory
