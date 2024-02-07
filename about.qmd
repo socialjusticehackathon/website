@@ -202,16 +202,8 @@ lapply(
 ```
 ::::::
 
-## Our Partners {#partners}
 
-## Our Sponsors {#sponsor}
-
-:::{.sponsor-placeholder}
-![](posts/images/sponsors.png)
-:::
-
-Contact us to sponsor our event!
-
+## Ready to Join Us? {#register}
 
 Registration link coming soon!
 
@@ -222,5 +214,3 @@ Registration link coming soon!
 ## Our Sponsors {#sponsors}
 
 Contact us to sponsor our event!
-
-::::::
