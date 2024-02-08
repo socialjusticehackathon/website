@@ -36,7 +36,7 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
   
   div(
     class = class_info,
-    style = "border-color: white;",
+    style = "background: #8f4b99;",
     ...
   )
 }
@@ -63,7 +63,10 @@ add_info_card <- function(title, body, button_text, button_link) {
     div(
       class = "card-body",
       # title
-      tags$section(class = "card-title text-center", h5(title)),
+      tags$section(
+        class = "card-title text-center",       
+        h5(title)#, style = "color: #6D157A; font-weight: bold;")
+      ),
       # body
       br(),
       p(body),
@@ -176,13 +179,6 @@ add_profile_card <- function(person) {
         class = "text-center mt-3",
         a(info$name, href = info$linkedin),
         style = "font-size: 1.2rem;"
-      ),
-      # role
-      p(
-        class = "text-center",
-        info$role,
-        style = "font-size: 0.9rem; font-weight: bold; opacity: 0.85;" 
-            # should use color once style established  ^^^^^^^^^^^^^^
       ),
       # bio
       div(
