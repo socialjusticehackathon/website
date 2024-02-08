@@ -133,10 +133,15 @@ Together, attendees will develop technology solutions that respond to the specif
 :::
 ::::::
 
+:::::: {.content-block}
 ## The Format
 
+:::::: 
 
+:::::: {.content-block}
 ## Host Institutions
+
+:::::: 
 
 :::::: {.content-block}
 
