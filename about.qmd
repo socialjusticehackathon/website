@@ -207,15 +207,20 @@ lapply(
 ```
 ::::::
 
-
+:::::: {.content-block}
 ## Ready to Join Us? {#register}
 
 Registration link coming soon!
+:::::: 
 
+:::::: {.content-block}
 ## Submit a Project
 
 [Submit a project with this form](http://tinyurl.com/sjhphlchallenge)
+:::::: 
 
+:::::: {.content-block}
 ## Our Sponsors {#sponsors}
 
 Contact us to sponsor our event!
+:::::: 
