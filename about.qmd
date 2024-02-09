@@ -151,7 +151,10 @@ Together, attendees will develop technology solutions that respond to the specif
 ## Organizers
 
 ```{r organizer-gallery}
-organizers <- read.csv("assets/about--organizers.csv", na.strings = "-")
+organizers <- local({
+  df <- read.csv("assets/about--organizers.csv", na.strings = "-")
+  df[order(df$name), ]
+})
 
 add_profile_card <- function(person) {
   info <- 
