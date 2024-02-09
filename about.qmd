@@ -153,18 +153,13 @@ Together, attendees will develop technology solutions that respond to the specif
 ```{r organizer-gallery}
 organizers <- local({
   df <- read.csv("assets/about--organizers.csv", na.strings = "-")
-  df[order(df$role, df$name), ]
+  df[order(df$name), ]
 })
-
 
 add_profile_card <- function(person) {
   info <- 
     organizers[organizers$name == person, ] |> 
     as.list()
-  
-  if (is.na(info$role)) {
-    info$role <- ""
-  }
 
   general_card_div(
     div(
@@ -183,10 +178,10 @@ add_profile_card <- function(person) {
       # bio
       div(
         style = "font-size: 0.9rem; font-style: italic; opacity: 0.85;",
+           # should use color once style established    ^^^^^^^^^^^^^^
         p(
           class = "text-center",
           shiny::markdown(info$bio)
-              # should use color once style established    ^^^^^^^^^^^^^^
         )
       )
     )
