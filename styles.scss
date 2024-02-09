@@ -6,8 +6,8 @@
 // for how the darkly theme sets variables
 $body-bg: #6D157A;
 $body-color: white;
+$link-color:#68017b;
 $link-decoration: none;
-$link-color: #CE66C1;
 $navbar-bg: #6D157A;
 $primary: white;
 
@@ -38,6 +38,11 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 /* INDEX PAGE ------------------------------------------ */
+
+a {
+  font-weight: bolder;
+  color: #50095d;
+}
 
 /*
  * Buttons
