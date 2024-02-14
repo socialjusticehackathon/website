@@ -8,3 +8,4 @@ _site
 # RStudio specific ----
 .Rdata
 .Rhistory
+.Rproj.user

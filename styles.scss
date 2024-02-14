@@ -6,6 +6,8 @@
 // for how the darkly theme sets variables
 $body-bg: #6D157A;
 $body-color: white;
+$link-color:#68017b;
+$link-decoration: none;
 $navbar-bg: #6D157A;
 $primary: white;
 
@@ -36,6 +38,11 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 /* INDEX PAGE ------------------------------------------ */
+
+a {
+  font-weight: bolder;
+  color: #50095d;
+}
 
 /*
  * Buttons
@@ -69,10 +76,6 @@ html { font-family: 'Inter', sans-serif; }
 
 .hero-banner-cta {
   margin-top: -50px;
-
-  .card {
-    border-color: white; 
-  }
 }
 
 .hero-github-links {
@@ -82,6 +85,11 @@ html { font-family: 'Inter', sans-serif; }
 .hero-title {
   font-size: 64px;
   margin-bottom: 5rem;
+}
+
+.sponsor-placeholder {
+    justify-self: center;
+    grid-column: 1 / -1;
 }
 
 @media(min-width: 900px) {
