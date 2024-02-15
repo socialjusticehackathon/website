@@ -100,7 +100,7 @@ add_info_card(
     "Are you a justice advocate, public servant, or community legal provider?
     Help us create impactful projects. Or volunteer as a project mentor.", 
   button_text = "Get Involved", 
-  button_link = "#partners"
+  button_link = "/posts/for-organizers.qmd"
 )
 
 add_info_card(
