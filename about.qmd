@@ -76,10 +76,10 @@ add_info_card <- function(title, body, button_text, button_link) {
     div(
       class = "d-flex justify-content-center mb-3",
       #class = "card-footer",
-      tags$button(
+      tags$a(
         class = "btn btn-action btn-primary btn-action-primary justify-content-center",
         button_text,
-        onclick = button_link
+        href = button_link
       )
     )
   )
