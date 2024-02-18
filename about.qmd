@@ -48,11 +48,30 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r hero-banner}
 h1(
   class = "text-center hero-title",
-  HTML("Philadelphia<br>Social Justice<br>Hackathon")
+  HTML("Philadelphia Social Justice Hackathon")
 )
 ```
 :::
 
+<!-- /HERO BANNER -->
+
+:::::: {.content-block}
+
+## About the Event
+::: {.grid}
+::: {.g-col-lg-8 .g-col-12}
+The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+
+Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
+
+**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
+:::
+
+:::{.g-col-lg-4 .g-col-8 .g-start-3}
+![](assets/about-page_hero-bg-img-1.jpeg)
+:::
+:::
+::::::
 
 :::::: {.content-block}
 ::: {.list .grid}
@@ -116,27 +135,8 @@ add_info_card(
 :::
 ::::::
 
-<!-- /HERO BANNER -->
-
-:::::: {.content-block}
-
-## About
-::: {.grid}
-::: {.g-col-lg-8 .g-col-12}
-The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
-
-Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
-
-**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
-:::
-
-:::{.g-col-lg-4 .g-col-8 .g-start-3}
-![](assets/about-page_hero-bg-img-1.jpeg)
-:::
-:::
-::::::
-
-:::::: {.content-block}
+<!-- TODO: Add content for these -->
+<!-- :::::: {.content-block}
 ## The Format
 
 :::::: 
@@ -144,7 +144,7 @@ Together, attendees will develop technology solutions that respond to the specif
 :::::: {.content-block}
 ## Host Institutions
 
-:::::: 
+::::::  -->
 
 :::::: {.content-block}
 
