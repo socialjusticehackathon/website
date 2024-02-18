@@ -24,7 +24,6 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
     paste(
       "card",       # card class
       # about card
-      "border-2",   # border-width = 2px
       "rounded-3",  # border-radius = 0.3rem
       "m-2",        # margin all sides: 0.5rem
       # about grid placement
@@ -148,17 +147,20 @@ add_info_card(
 
 :::::: {.content-block}
 
-## Organizers
-
 ```{r organizer-gallery}
 organizers <- local({
   df <- read.csv("assets/about--organizers.csv", na.strings = "-")
   df[order(df$name), ]
 })
 
-add_profile_card <- function(person) {
+advisors <- local({
+  df <- read.csv("assets/about--advisors.csv", na.strings = "-")
+  df[order(df$name), ]
+})
+
+add_profile_card <- function(person, personList) {
   info <- 
-    organizers[organizers$name == person, ] |> 
+    personList[personList$name == person, ] |>
     as.list()
 
   general_card_div(
@@ -182,12 +184,22 @@ add_profile_card <- function(person) {
     )
   )
 }
+# Render section
 
+h2("Organizers")
 
 lapply(
   organizers$name, 
-  \(x) add_profile_card(x)
-) |> 
+  \(x) add_profile_card(x, organizers)
+) |>
+  div(class = "list grid")
+
+h2("Advisors")
+
+lapply(
+  advisors$name,
+  \(x) add_profile_card(x, advisors)
+) |>
   div(class = "list grid")
 
 ```
