@@ -175,15 +175,10 @@ add_profile_card <- function(person) {
         a(info$name, href = info$linkedin),
         style = "font-size: 1.2rem;"
       ),
-      # bio
-      div(
-        style = "font-size: 0.9rem; font-style: italic; opacity: 0.85;",
-           # should use color once style established    ^^^^^^^^^^^^^^
-        p(
-          class = "text-center",
+      p(
+          class = "text-center person-bio",
           shiny::markdown(info$bio)
         )
-      )
     )
   )
 }
