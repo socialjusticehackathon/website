@@ -59,9 +59,9 @@ h1(
 ## About the Event
 ::: {.grid}
 ::: {.g-col-lg-8 .g-col-12}
-The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
 
-Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
+Together, attendees will work on technology solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
 
 **The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
 :::
@@ -118,7 +118,7 @@ add_info_card(
     "Are you a justice advocate, public servant, or community legal provider?
     Help us create impactful projects. Or volunteer as a project mentor.", 
   button_text = "Get Involved", 
-  button_link = "/posts/for-organizers.qmd"
+  button_link = "/posts/2024-02-08-for-organizers.qmd"
 )
 
 add_info_card(
@@ -208,7 +208,7 @@ lapply(
 :::::: {.content-block}
 ## Ready to Join Us? {#register}
 
-Registration link coming soon!
+[Register to participate in the event here](https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867)
 :::::: 
 
 :::::: {.content-block}
@@ -220,5 +220,5 @@ Registration link coming soon!
 :::::: {.content-block}
 ## Our Sponsors {#sponsors}
 
-Contact us to sponsor our event!
+[Contact us](/posts/2024-02-08-for-organizers.qmd) to sponsor our event or become a project partner or email us at [info@socialjusticehackathon.com](mailto:info@socialjusticehackathon.com)
 :::::: 
