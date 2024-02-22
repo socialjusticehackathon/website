@@ -24,7 +24,6 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
     paste(
       "card",       # card class
       # about card
-      "border-2",   # border-width = 2px
       "rounded-3",  # border-radius = 0.3rem
       "m-2",        # margin all sides: 0.5rem
       # about grid placement
@@ -48,11 +47,30 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r hero-banner}
 h1(
   class = "text-center hero-title",
-  HTML("Philadelphia<br>Social Justice<br>Hackathon")
+  HTML("Philadelphia Social Justice Hackathon")
 )
 ```
 :::
 
+<!-- /HERO BANNER -->
+
+:::::: {.content-block}
+
+## About the Event
+::: {.grid}
+::: {.g-col-lg-8 .g-col-12}
+The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+
+Together, attendees will work on technology solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
+
+**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
+:::
+
+:::{.g-col-lg-4 .g-col-8 .g-start-3}
+![](assets/about-page_hero-bg-img-1.jpeg)
+:::
+:::
+::::::
 
 :::::: {.content-block}
 ::: {.list .grid}
@@ -100,7 +118,7 @@ add_info_card(
     "Are you a justice advocate, public servant, or community legal provider?
     Help us create impactful projects. Or volunteer as a project mentor.", 
   button_text = "Get Involved", 
-  button_link = "/posts/for-organizers.qmd"
+  button_link = "/posts/2024-02-08-for-organizers.qmd"
 )
 
 add_info_card(
@@ -116,27 +134,8 @@ add_info_card(
 :::
 ::::::
 
-<!-- /HERO BANNER -->
-
-:::::: {.content-block}
-
-## About
-::: {.grid}
-::: {.g-col-lg-8 .g-col-12}
-The Philadelphia Social Justice Hackathon is a 36-hour event to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
-
-Together, attendees will develop technology solutions that respond to the specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
-
-**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
-:::
-
-:::{.g-col-lg-4 .g-col-8 .g-start-3}
-![](assets/about-page_hero-bg-img-1.jpeg)
-:::
-:::
-::::::
-
-:::::: {.content-block}
+<!-- TODO: Add content for these -->
+<!-- :::::: {.content-block}
 ## The Format
 
 :::::: 
@@ -144,11 +143,9 @@ Together, attendees will develop technology solutions that respond to the specif
 :::::: {.content-block}
 ## Host Institutions
 
-:::::: 
+::::::  -->
 
 :::::: {.content-block}
-
-## Organizers
 
 ```{r organizer-gallery}
 organizers <- local({
@@ -156,9 +153,14 @@ organizers <- local({
   df[order(df$name), ]
 })
 
-add_profile_card <- function(person) {
+advisors <- local({
+  df <- read.csv("assets/about--advisors.csv", na.strings = "-")
+  df[order(df$name), ]
+})
+
+add_profile_card <- function(person, personList) {
   info <- 
-    organizers[organizers$name == person, ] |> 
+    personList[personList$name == person, ] |>
     as.list()
 
   general_card_div(
@@ -175,24 +177,29 @@ add_profile_card <- function(person) {
         a(info$name, href = info$linkedin),
         style = "font-size: 1.2rem;"
       ),
-      # bio
-      div(
-        style = "font-size: 0.9rem; font-style: italic; opacity: 0.85;",
-           # should use color once style established    ^^^^^^^^^^^^^^
-        p(
-          class = "text-center",
+      p(
+          class = "text-center person-bio",
           shiny::markdown(info$bio)
         )
-      )
     )
   )
 }
+# Render section
 
+h2("Organizers")
 
 lapply(
   organizers$name, 
-  \(x) add_profile_card(x)
-) |> 
+  \(x) add_profile_card(x, organizers)
+) |>
+  div(class = "list grid")
+
+h2("Advisors")
+
+lapply(
+  advisors$name,
+  \(x) add_profile_card(x, advisors)
+) |>
   div(class = "list grid")
 
 ```
@@ -201,7 +208,7 @@ lapply(
 :::::: {.content-block}
 ## Ready to Join Us? {#register}
 
-Registration link coming soon!
+[Register to participate in the event here](https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867)
 :::::: 
 
 :::::: {.content-block}
@@ -213,5 +220,5 @@ Registration link coming soon!
 :::::: {.content-block}
 ## Our Sponsors {#sponsors}
 
-Contact us to sponsor our event!
+[Contact us](/posts/2024-02-08-for-organizers.qmd) to sponsor our event or become a project partner or email us at [info@socialjusticehackathon.com](mailto:info@socialjusticehackathon.com)
 :::::: 

@@ -6,7 +6,7 @@
 // for how the darkly theme sets variables
 $body-bg: #6D157A;
 $body-color: white;
-$link-color:#68017b;
+$link-color:white;
 $link-decoration: none;
 $navbar-bg: #6D157A;
 $primary: white;
@@ -90,6 +90,20 @@ a {
 .sponsor-placeholder {
     justify-self: center;
     grid-column: 1 / -1;
+}
+
+.card-body {
+  .person-bio {
+    font-style: italic;
+    font-size: 0.85rem;
+    font-weight: 100;
+  }
+}
+
+.quarto-post {
+  a {
+    font-weight: normal;
+  }
 }
 
 @media(min-width: 900px) {
