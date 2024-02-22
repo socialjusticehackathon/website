@@ -1,7 +1,17 @@
 ---
 title: "Posts"
 listing:
-  contents: "."
+  contents:
+    - "."
+    - path: https://sjhphl.devpost.com/project-gallery
+      title: "#SJHPHL 2022 - Project Gallery (October 2022)"
+      date: "2022-10-01"
+    - path: https://ssjhackathon.devpost.com/project-gallery
+      title: "#SSJH Seattle Social Justice Hackathon 2015 - Recap & Demo Day"
+      date: "2016-02-01"
+    - path: https://ssjhackathon.devpost.com/project-gallery
+      title: "#SSJH Seattle Social Justice Hackathon 2015 - Hackathon Devpost Site"
+      date: "2015-11-06"
   sort: "date desc"
   type: default
   categories: false

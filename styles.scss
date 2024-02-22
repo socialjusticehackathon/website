@@ -106,6 +106,10 @@ a {
   }
 }
 
+.quarto-title-banner {
+    padding-bottom: 0em !important;
+}
+
 @media(min-width: 900px) {
     .content-block {
       margin-left: 50px;
