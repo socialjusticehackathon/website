@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "posts/2024-02-08-for-organizers.html",
+    "href": "posts/2024-02-08-for-organizers.html",
+    "title": "Call for Projects and Mentors",
+    "section": "",
+    "text": "Law students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "href": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "title": "Call for Projects and Mentors",
+    "section": "Let us know what we can build for you!",
+    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#contact-us",
+    "href": "posts/2024-02-08-for-organizers.html#contact-us",
+    "title": "Call for Projects and Mentors",
+    "section": "Contact us!",
+    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
+  },
+  {
+    "objectID": "venue.html",
+    "href": "venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Venue details will be announced closer to the event."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "fizzbuzz &lt;- function(n)\n{\n    ifelse(is.na(x &lt;- rep(c(NA, NA, \"fizz\", NA, \"buzz\", \"fizz\", NA, NA, \"fizz\", \"buzz\", NA, \"fizz\", NA, NA, \"fizzbuzz\"), length.out = n)), seq(n), x)\n}\n\nfizzbuzz(100)\n\n  [1] \"1\"        \"2\"        \"fizz\"     \"4\"        \"buzz\"     \"fizz\"    \n  [7] \"7\"        \"8\"        \"fizz\"     \"buzz\"     \"11\"       \"fizz\"    \n [13] \"13\"       \"14\"       \"fizzbuzz\" \"16\"       \"17\"       \"fizz\"    \n [19] \"19\"       \"buzz\"     \"fizz\"     \"22\"       \"23\"       \"fizz\"    \n [25] \"buzz\"     \"26\"       \"fizz\"     \"28\"       \"29\"       \"fizzbuzz\"\n [31] \"31\"       \"32\"       \"fizz\"     \"34\"       \"buzz\"     \"fizz\"    \n [37] \"37\"       \"38\"       \"fizz\"     \"buzz\"     \"41\"       \"fizz\"    \n [43] \"43\"       \"44\"       \"fizzbuzz\" \"46\"       \"47\"       \"fizz\"    \n [49] \"49\"       \"buzz\"     \"fizz\"     \"52\"       \"53\"       \"fizz\"    \n [55] \"buzz\"     \"56\"       \"fizz\"     \"58\"       \"59\"       \"fizzbuzz\"\n [61] \"61\"       \"62\"       \"fizz\"     \"64\"       \"buzz\"     \"fizz\"    \n [67] \"67\"       \"68\"       \"fizz\"     \"buzz\"     \"71\"       \"fizz\"    \n [73] \"73\"       \"74\"       \"fizzbuzz\" \"76\"       \"77\"       \"fizz\"    \n [79] \"79\"       \"buzz\"     \"fizz\"     \"82\"       \"83\"       \"fizz\"    \n [85] \"buzz\"     \"86\"       \"fizz\"     \"88\"       \"89\"       \"fizzbuzz\"\n [91] \"91\"       \"92\"       \"fizz\"     \"94\"       \"buzz\"     \"fizz\"    \n [97] \"97\"       \"98\"       \"fizz\"     \"buzz\""
+  },
+  {
+    "objectID": "challenges.html",
+    "href": "challenges.html",
+    "title": "Challenges",
+    "section": "",
+    "text": "You can bring your own challenge for your team to work on… but the best challenges at the hackathon are from our community partners!"
+  },
+  {
+    "objectID": "challenges.html#technology-partners",
+    "href": "challenges.html#technology-partners",
+    "title": "Challenges",
+    "section": "Technology Partners",
+    "text": "Technology Partners\nThanks to following partners for providing access, mentors and learning resources for their tools…"
+  },
+  {
+    "objectID": "challenges.html#community-partners",
+    "href": "challenges.html#community-partners",
+    "title": "Challenges",
+    "section": "Community Partners",
+    "text": "Community Partners\n\n\n\n\n\n\nTip\n\n\n\n\n\n\nPartner:The Merchants Fund\n\n\nAbout the non-profit: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nPartner: Community Legal Services\n\n\nAbout the non-profit: Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits."
+  },
+  {
+    "objectID": "challenges.html#featured-challenges",
+    "href": "challenges.html#featured-challenges",
+    "title": "Challenges",
+    "section": "Featured Challenges",
+    "text": "Featured Challenges\nThis section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.\n\nCreate a one-stop digital guide to starting a restaurant in Philadelphia​\nGoal: Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.\nThe Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.\n\n\nBuild a tool for advocates to calculate SNAP benefits for clients​\nGoal: Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.\nThousands of families in Philadelphia depend on assistance to access healthy food. Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.\nSome advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nPhilly Legal Hackathon 2022 Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/2024-01-18-recap-of-2022.html",
     "href": "posts/2024-01-18-recap-of-2022.html",
     "title": "Philly Legal Hackathon 2022 Project Recap",
@@ -75,75 +145,5 @@
     "title": "Philly Legal Hackathon 2022 Project Recap",
     "section": "Online Dispute Resolution for Security Deposits",
     "text": "Online Dispute Resolution for Security Deposits\nParticipants: Javier Martinez and Chris Collins\nBackground\nThere is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.\nWhat they built\nDevelop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.\nProject Links\n\nEscrow.ritza.repl.co\nGitHub Repo\nPresentation on youtube (1:23:18)\n\n\n\nLast but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! #SJHPHL pic.twitter.com/Nq0exQ0Kbo\n\n— #SJHPHL Philly's First Social Justice Hackathon (@ssjhackathon) October 30, 2022"
-  },
-  {
-    "objectID": "venue.html",
-    "href": "venue.html",
-    "title": "Venue",
-    "section": "",
-    "text": "Venue details will be announced closer to the event."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "fizzbuzz &lt;- function(n)\n{\n    ifelse(is.na(x &lt;- rep(c(NA, NA, \"fizz\", NA, \"buzz\", \"fizz\", NA, NA, \"fizz\", \"buzz\", NA, \"fizz\", NA, NA, \"fizzbuzz\"), length.out = n)), seq(n), x)\n}\n\nfizzbuzz(100)\n\n  [1] \"1\"        \"2\"        \"fizz\"     \"4\"        \"buzz\"     \"fizz\"    \n  [7] \"7\"        \"8\"        \"fizz\"     \"buzz\"     \"11\"       \"fizz\"    \n [13] \"13\"       \"14\"       \"fizzbuzz\" \"16\"       \"17\"       \"fizz\"    \n [19] \"19\"       \"buzz\"     \"fizz\"     \"22\"       \"23\"       \"fizz\"    \n [25] \"buzz\"     \"26\"       \"fizz\"     \"28\"       \"29\"       \"fizzbuzz\"\n [31] \"31\"       \"32\"       \"fizz\"     \"34\"       \"buzz\"     \"fizz\"    \n [37] \"37\"       \"38\"       \"fizz\"     \"buzz\"     \"41\"       \"fizz\"    \n [43] \"43\"       \"44\"       \"fizzbuzz\" \"46\"       \"47\"       \"fizz\"    \n [49] \"49\"       \"buzz\"     \"fizz\"     \"52\"       \"53\"       \"fizz\"    \n [55] \"buzz\"     \"56\"       \"fizz\"     \"58\"       \"59\"       \"fizzbuzz\"\n [61] \"61\"       \"62\"       \"fizz\"     \"64\"       \"buzz\"     \"fizz\"    \n [67] \"67\"       \"68\"       \"fizz\"     \"buzz\"     \"71\"       \"fizz\"    \n [73] \"73\"       \"74\"       \"fizzbuzz\" \"76\"       \"77\"       \"fizz\"    \n [79] \"79\"       \"buzz\"     \"fizz\"     \"82\"       \"83\"       \"fizz\"    \n [85] \"buzz\"     \"86\"       \"fizz\"     \"88\"       \"89\"       \"fizzbuzz\"\n [91] \"91\"       \"92\"       \"fizz\"     \"94\"       \"buzz\"     \"fizz\"    \n [97] \"97\"       \"98\"       \"fizz\"     \"buzz\""
-  },
-  {
-    "objectID": "challenges.html",
-    "href": "challenges.html",
-    "title": "Challenges",
-    "section": "",
-    "text": "You can bring your own challenge for your team to work on… but the best challenges at the hackathon are from our community partners!"
-  },
-  {
-    "objectID": "challenges.html#technology-partners",
-    "href": "challenges.html#technology-partners",
-    "title": "Challenges",
-    "section": "Technology Partners",
-    "text": "Technology Partners\nThanks to following partners for providing access, mentors and learning resources for their tools…"
-  },
-  {
-    "objectID": "challenges.html#community-partners",
-    "href": "challenges.html#community-partners",
-    "title": "Challenges",
-    "section": "Community Partners",
-    "text": "Community Partners\n\n\n\n\n\n\nTip\n\n\n\n\n\n\nPartner:The Merchants Fund\n\n\nAbout the non-profit: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nPartner: Community Legal Services\n\n\nAbout the non-profit: Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits."
-  },
-  {
-    "objectID": "challenges.html#featured-challenges",
-    "href": "challenges.html#featured-challenges",
-    "title": "Challenges",
-    "section": "Featured Challenges",
-    "text": "Featured Challenges\nThis section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.\n\nCreate a one-stop digital guide to starting a restaurant in Philadelphia​\nGoal: Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.\nThe Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.\n\n\nBuild a tool for advocates to calculate SNAP benefits for clients​\nGoal: Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.\nThousands of families in Philadelphia depend on assistance to access healthy food. Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.\nSome advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Call for Projects and Mentors\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nPhilly Legal Hackathon 2022 Project Recap\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/for-organizers.html",
-    "href": "posts/for-organizers.html",
-    "title": "Call for Projects and Mentors",
-    "section": "",
-    "text": "Law students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
-  },
-  {
-    "objectID": "posts/for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "href": "posts/for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "title": "Call for Projects and Mentors",
-    "section": "Let us know what we can build for you!",
-    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
-  },
-  {
-    "objectID": "posts/for-organizers.html#contact-us",
-    "href": "posts/for-organizers.html#contact-us",
-    "title": "Call for Projects and Mentors",
-    "section": "Contact us!",
-    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
   }
 ]
