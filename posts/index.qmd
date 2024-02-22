@@ -4,26 +4,33 @@ listing:
   contents:
     - "."
     - path: https://2023.calicon.org/sessions/philly-social-justice-hackathon-catalyzing-cross-disciplinary-problem-solving-and-creative
-      title: "#SJHPHL 2022 - CALICon Presentation on the Philadelphia Social Justice Hackathon"
+      title: "*The Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education*"
+      description: "#SJHPHL 2022 - CALICon Presentation"
       date: "2023-06-15"
     - path: https://sjhphl.devpost.com/project-gallery
-      title: "#SJHPHL 2022 - Project Gallery"
+      title: "Social Justice Hackathon Philadelphia 2022 - Project Gallery"
       date: "2022-10-31"
+      description: "#SJHPHL 2022 - Project Gallery"
     - path: https://sjhphl.devpost.com/
-      title: "#SJHPHL 2022 - DevPost Hackathon Site for the Social Justice Hackathon Philadelphia 2022"
+      title: "Social Justice Hackathon Philadelphia 2022"
       date: "2022-10-29"
+      description: "#SJHPHL 2022 - DevPost Site"
     - path: https://www.inquirer.com/news/philadelphia-social-justice-hackathon-coding-law-school-drexel-temple-villanova-penn-20221028.html
-      title: "#SJHPHL 2022 - Philadelphia Inquirer: This weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint"
+      title: "*This weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint*"
       date: "2022-10-28"
+      description: "#SJHPHL 2022 - Philadelphia Inquirer Article"
     - path: https://technical.ly/professional-development/social-justice-hackathon-philly/
-      title: "#SJHPHL 2022 - Technical.ly: Into open data and social justice? This October hackathon at Drexel is for you"
+      title: "*Into open data and social justice? This October hackathon at Drexel is for you*"
       date: "2022-09-28"
+      description: "#SJHPHL 2022 - Technical.ly Post"
     - path: https://ssjhackathon.devpost.com/project-gallery
-      title: "#SSJH Seattle Social Justice Hackathon 2015 - Recap & Demo Day"
+      title: "Seattle Social Justice Hackathon 2015 - Recap & Demo Day"
       date: "2016-02-01"
+      description: "#SSJH"
     - path: https://ssjhackathon.devpost.com/project-gallery
-      title: "#SSJH Seattle Social Justice Hackathon 2015 - Hackathon Devpost Site"
+      title: "Seattle Social Justice Hackathon 2015 - Hackathon Devpost Site"
       date: "2015-11-06"
+      description: "#SSJH"
   sort: "date desc"
   type: default
   categories: false

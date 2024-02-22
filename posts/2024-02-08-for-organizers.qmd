@@ -1,5 +1,5 @@
 ---
-title: "Call for Projects and Mentors"
+title: "Social Justice Hackathon Philadelphia 2024 - Call for Projects and Mentors"
 author: "Hackathon Committee"
 date: "2024-02-08"
 categories: [news]
