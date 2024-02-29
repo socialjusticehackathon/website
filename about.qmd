@@ -158,6 +158,8 @@ advisors <- local({
   df[order(df$name), ]
 })
 
+organizers <- organizers[organizers$name %in% setdiff(organizers$name, advisors$name), ]
+ 
 add_profile_card <- function(person, personList) {
   info <- 
     personList[personList$name == person, ] |>
