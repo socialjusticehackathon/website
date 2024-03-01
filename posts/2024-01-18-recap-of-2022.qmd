@@ -1,5 +1,5 @@
 ---
-title: "Social Justice Hackathon Philadelphia 2022 - Project Recap"
+title: "SJHPHL 2022 - Project Recap"
 author: "Hackathon Committee"
 date: "2024-01-18"
 categories: [news]

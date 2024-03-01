@@ -1,16 +1,18 @@
 ---
-title: "Social Justice Hackathon Philadelphia 2024 - Call for Projects and Mentors"
+title: "SJHPHL 2024 - Call for Projects and Mentors"
 author: "Hackathon Committee"
 date: "2024-02-08"
 categories: [news]
 toc: true
 ---
 
-Law students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include: 
+The Philadelphia Social Justice Hackathon Law (SJHPHL) is a weekend long hackathon occuring April 5-7, 2024. Students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include: 
 
 * Building a data dashboard to show where in Philly is the greatest need for your services
 * Building a website to help the public connect to the services you provide
 * Building a chatbot for the public to access information about their legal rights.
+
+> ✏️ [Fill out this form](https://docs.google.com/forms/d/1CaHIVtf3pohPl34DduosxeKB87p8WAfZ0cMbEgosCG0) to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community.
 
 ## Let us know what we can build for you!
 
