@@ -1,6 +1,9 @@
 project:
   type: website
 
+resources:
+  - CNAME
+
 website:
   title: "#SJHPHL"
   navbar:
