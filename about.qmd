@@ -49,28 +49,14 @@ h1(
   class = "text-center hero-title",
   HTML("Philadelphia Social Justice Hackathon")
 )
+p(
+  class="hero-text content-block",
+  HTML("The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.")
+  )
 ```
 :::
 
 <!-- /HERO BANNER -->
-
-:::::: {.content-block}
-
-## About the Event
-::: {.grid}
-::: {.g-col-lg-8 .g-col-12}
-The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
-
-Together, attendees will work on technology solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
-
-**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
-:::
-
-:::{.g-col-lg-4 .g-col-8 .g-start-3}
-![](assets/about-page_hero-bg-img-1.jpeg)
-:::
-:::
-::::::
 
 :::::: {.content-block}
 ::: {.list .grid}
@@ -131,6 +117,24 @@ add_info_card(
   button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
 )
 ```
+:::
+::::::
+
+:::::: {.content-block}
+
+## About the Event
+::: {.grid}
+::: {.g-col-lg-8 .g-col-12}
+
+
+Together, attendees will work on technology solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
+
+**The event is free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university.**
+:::
+
+:::{.g-col-lg-4 .g-col-8 .g-start-3}
+![](assets/about-page_hero-bg-img-1.jpeg)
+:::
 :::
 ::::::
 
