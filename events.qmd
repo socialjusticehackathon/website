@@ -1,0 +1,29 @@
+---
+title: Events
+---
+
+::: {.content-block}
+
+#### ~~Challenge Projects and Pizza Night!~~
+~~*Date: March 7, 2024*~~<br>
+~~Speaking: Kevin De Liban, Joy Payton~~<br>
+~~[Register now](https://www.meetup.com/legalhackerspa/events/299578460/)~~
+
+#### Code for Philly Takeover and Pizza
+*Date: March 14, 2024*<br>
+Speaking: Caitlin Sherman, Kat Jost<br>
+Registration coming soon
+
+#### Open Source Technology in Legal Aid and Pizza
+*Date: March 21, 2024*<br>
+Speaking: Kevin Mulcahy, Travis Southard, Jonathan Pyle<br>
+Registration coming soon
+
+#### Open Data for Legal Aid Projects
+*Date: March 28, 2024*<br>
+Registration coming soon
+
+#### Social Justice Hackathon
+*Date: April 5-7, 2024*<br>
+[Register now](https://www.eventbrite.com/e/philadelphia-social-justice-hackathon-2024-tickets-829209476867)
+:::

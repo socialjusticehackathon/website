@@ -10,6 +10,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: events.qmd
+        text: Events
       - posts/index.qmd
     right:
       - icon: github
