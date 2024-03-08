@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "venue.html",
-    "href": "venue.html",
-    "title": "Venue",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
-    "text": "Venue details will be announced closer to the event."
+    "text": "Challenge Projects and Pizza Night!\nDate: March 7, 2024 Speaking: Kevin De Liban, Joy Payton Register now\n\n\nCode for Philly Takeover and Pizza\nDate: March 14, 2024 Speaking: Caitlin Sherman, Kat Jost Registration coming soon\n\n\nOpen Source Technology in Legal Aid and Pizza\nDate: March 21, 2024 Speaking: Kevin Mulcahy, Travis Southard, Jonathan Pyle Registration coming soon\n\n\nOpen Data for Legal Aid Projects\nDate: March 28, 2024 Registration coming soon\n\n\nSocial Justice Hackathon\nDate: April 5-7, 2024 Register now"
   },
   {
-    "objectID": "posts/2024-02-08-for-organizers.html",
-    "href": "posts/2024-02-08-for-organizers.html",
-    "title": "Call for Projects and Mentors",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
     "section": "",
-    "text": "Law students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
-  },
-  {
-    "objectID": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "href": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "title": "Call for Projects and Mentors",
-    "section": "Let us know what we can build for you!",
-    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
-  },
-  {
-    "objectID": "posts/2024-02-08-for-organizers.html#contact-us",
-    "href": "posts/2024-02-08-for-organizers.html#contact-us",
-    "title": "Call for Projects and Mentors",
-    "section": "Contact us!",
-    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
+    "text": "Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nPhilly Legal Hackathon 2022 Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2024-01-18-recap-of-2022.html",
@@ -105,11 +91,32 @@
     "text": "Online Dispute Resolution for Security Deposits\nParticipants: Javier Martinez and Chris Collins\nBackground\nThere is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.\nWhat they built\nDevelop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.\nProject Links\n\nEscrow.ritza.repl.co\nGitHub Repo\nPresentation on youtube (1:23:18)\n\n\n\nLast but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! #SJHPHL pic.twitter.com/Nq0exQ0Kbo\n\n— #SJHPHL Philly's First Social Justice Hackathon (@ssjhackathon) October 30, 2022"
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "posts/2024-02-08-for-organizers.html",
+    "href": "posts/2024-02-08-for-organizers.html",
+    "title": "Call for Projects and Mentors",
     "section": "",
-    "text": "Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nPhilly Legal Hackathon 2022 Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\nNo matching items"
+    "text": "Law students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "href": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "title": "Call for Projects and Mentors",
+    "section": "Let us know what we can build for you!",
+    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#contact-us",
+    "href": "posts/2024-02-08-for-organizers.html#contact-us",
+    "title": "Call for Projects and Mentors",
+    "section": "Contact us!",
+    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
+  },
+  {
+    "objectID": "venue.html",
+    "href": "venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Venue details will be announced closer to the event."
   },
   {
     "objectID": "challenges.html",
