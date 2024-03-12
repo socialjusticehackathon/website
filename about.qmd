@@ -45,6 +45,13 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 
 ::: {.hero-banner .text-center}
 ```{r hero-banner}
+a(
+  href="https://www.eventbrite.com/e/sjhphl-social-justice-projects-with-code-for-philly-and-pizza-nite-tickets-858595481197",
+  p(
+    class="hero-link content-block",
+    HTML("Pre-Hackathon Events: Join us for Pizza, Knowledge-sharing & Community this Thurs, March 14, 2024, at the Drexel Kline School of Law! Learn about challenge projects and data to get ready for the #SJHPHL Hackathon in April")
+  )
+)
 h1(
   class = "text-center hero-title",
   HTML("Philadelphia Social Justice Hackathon")
