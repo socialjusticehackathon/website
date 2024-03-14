@@ -1,7 +1,24 @@
 ---
 title: "Posts"
 listing:
-  contents: "."
+  contents:
+    - "."
+    - path: https://2023.calicon.org/sessions/philly-social-justice-hackathon-catalyzing-cross-disciplinary-problem-solving-and-creative
+      title: "The Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education"
+      description: "#SJHPHL 2022 - CALICon Presentation"
+      date: "2023-06-15"
+    - path: https://www.inquirer.com/news/philadelphia-social-justice-hackathon-coding-law-school-drexel-temple-villanova-penn-20221028.html
+      title: "This weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint"
+      date: "2022-10-28"
+      description: "#SJHPHL 2022 - Philadelphia Inquirer Article"
+    - path: https://technical.ly/professional-development/social-justice-hackathon-philly/
+      title: "Into open data and social justice? This October hackathon at Drexel is for you"
+      date: "2022-09-28"
+      description: "#SJHPHL 2022 - Technical.ly Post"
+    - path: https://ssjhackathon.devpost.com/project-gallery
+      title: "Seattle Social Justice Hackathon 2015 - Recap & Demo Day"
+      date: "2016-02-01"
+      description: "#SSJH"
   sort: "date desc"
   type: default
   categories: false
@@ -11,3 +28,6 @@ page-layout: full
 title-block-banner: true
 ---
 
+<body>
+  <base target="_blank">
+</body>
