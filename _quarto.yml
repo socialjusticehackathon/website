@@ -12,6 +12,7 @@ website:
         text: About
       - href: events.qmd
         text: Events
+      - href: schedule-venue.qmd
       - posts/index.qmd
     right:
       - icon: github
