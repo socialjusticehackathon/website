@@ -19,6 +19,15 @@ website:
         href: https://github.com/socialjusticehackathon/
       - icon: twitter
         href: https://twitter.com/ssjhackathon
+  open-graph:
+    title: "Philadelphia Social Justice Hackathon"
+    description: "The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community."
+    image: "/assets/preview.png"
+    image-height: 500
+    image-width: 1500
+    image-alt: "A purple banner with the text: Philadelphia's Social Justice Hackathon; Drexel's Kline School of Law; April 5-7"
+    locale: en_US
+    site-name: "#SJHPHL"
 format:
   html:
     theme: styles.scss
