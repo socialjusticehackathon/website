@@ -1,34 +1,129 @@
 ---
 title: Events
+execute: 
+  echo: false
+  output: asis
+  warning: false
 ---
 
-::: {.content-block}
+```{r workspace}
+#| include: false
+library(htmltools)
+library(shiny) # markdown()
+library(glue)
+
+general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
+  class_info <- 
+    paste(
+      "card",       # card class
+      # about card
+      "rounded-3",  # border-radius = 0.3rem
+      "m-2",        # margin all sides: 0.5rem
+      # about grid placement
+      glue("g-col-lg-{12/lg}"), # when >=1200px use {lg} cols per card (ex. 3 across)
+      glue("g-col-md-{12/md}"), # when >= 992px use {md} cols per card (ex. 2 across)
+      glue("g-col-sm-{12/sm}"), # when >= 768px use {sm} cols per card (ex. 2 across)
+      glue("g-col-{12/xs}")     # when  < 576px use {xs} cols per card (ex. 1 across)
+    )
+  
+  div(
+    class = class_info,
+    style = "background: #8f4b99;",
+    ...
+  )
+}
+```
+
+:::::: {.content-block}
+
+All events will take place at Drexel University Thomas R. Kline School of Law<br>
+3320 Market St, Philadelphia, PA 19104
 
 ## Upcoming Events
 
-#### Open Source Technology in Legal Aid and Pizza
-*Date: March 21, 2024*<br>
-Speaking: Kevin Mulcahy, Travis Southard, Jonathan Pyle<br>
-[Register now](https://www.eventbrite.com/e/860575954847)
+::: {.list .grid}
+      
+```{r info-cards}
+#| eval: true
+add_info_card <- function(title, body, button_text, button_link) {
+  general_card_div(
+    div(
+      class = "card-body",
+      # title
+      tags$section(
+        class = "card-title text-center",       
+        h5(title)
+      ),
+      # body
+      br(),
+      p(body),
+      br()
+    ),
+    # button
+    div(
+      class = "d-flex justify-content-center mb-3",
+      #class = "card-footer",
+      tags$a(
+        class = "btn btn-action btn-primary btn-action-primary justify-content-center",
+        button_text,
+        href = button_link
+      )
+    )
+  )
+}
 
-#### Open Data for Legal Aid Projects
-*Date: March 28, 2024*<br>
-[Register now](https://www.eventbrite.com/e/sjhphl-open-data-for-legal-aid-projects-and-pizza-tickets-860772532817)
+add_info_card(
+  title = "Open Data for Legal Aid Projects", 
+  body = 
+    "Date: March 28, 2024", 
+  button_text = "Register now", 
+  button_link = "https://www.eventbrite.com/e/sjhphl-open-data-for-legal-aid-projects-and-pizza-tickets-860772532817"
+)
 
-#### Social Justice Hackathon
-*Date: April 5-7, 2024*<br>
-[Register now](https://www.eventbrite.com/e/philadelphia-social-justice-hackathon-2024-tickets-829209476867)
+add_info_card(
+  title = "Social Justice Hackathon", 
+  body = 
+    "Date: April 5-7, 2024", 
+  button_text = "Register now", 
+  button_link = "https://www.eventbrite.com/e/philadelphia-social-justice-hackathon-2024-tickets-829209476867"
+)
+```
+:::
 
----
+## Schedule
 
-## Past Events
+| Day | Main Activity | Description |
+| --- | --- | --- |
+| Day 1, Friday, April 5th | Kickoff and Keynote | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. |
+| Day 2, Saturday, April 6th | Challenge analysis and planning | Hackathon orientation sessions: design thinking, platforms and data available. Solutions design and development |
+| Day 3, Sunday, April 7th | Solution development and presentation prep | Project Final Submissions.  Judging.  Closing Ceremony |
 
-#### ~~Challenge Projects and Pizza Night!~~
-~~*Date: March 7, 2024*~~<br>
-~~Speaking: Kevin De Liban, Joy Payton~~
+## Venue
 
-#### ~~Code for Philly Takeover and Pizza~~
-~~*Date: March 14, 2024*~~<br>
-~~Speaking: Caitlin Sherman, Kat Jost, Iliana Miltiadous~~<br>
+::::: {.grid}
+
+::: {.g-col-12 .g-col-lg-4}
+Drexel University Thomas R. Kline School of Law  
+3320 Market St  
+Philadelphia, PA 19104
+:::
+
+::: {.g-col-12 .g-col-lg-8}
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3732790637437!2d-75.19301808771128!3d39.95540627139878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c651cc8cb83b%3A0xd207bd894c157129!2sDrexel%20University%20Thomas%20R.%20Kline%20School%20of%20Law!5e0!3m2!1sen!2sus!4v1710446008805!5m2!1sen!2sus" width="480" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 :::
+
+:::::
+
+### Directions
+
+See [this Drexel Directions page](https://drexel.edu/law/admissions/tours-info-sessions-events/Directions/) for more.
+
+### Parking
+
+The Drexel Garage is located next to the law school. Proceed to 34th and Market Streets - there is a traffic light there - (you'll also pass the Law School Building on your left before the light). Turn left onto 34th Street - and make an immediate left onto the next street - Ludlow Street. Turn immediately left up to the entrance ramp to the garage on Ludlow Street. Park, note your place number, and pay at the lobby kiosk. Come down the elevator, exit the building and walk right. The law school is immediately to the right of the garage, just past the front of the parking garage.
+
+Metered parking is also available on many of the surrounding streets. The meters accept quarters, dimes and nickels for timed parking.
+
+::::::
