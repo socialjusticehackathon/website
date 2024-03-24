@@ -122,5 +122,57 @@ lapply(
 :::::: {.content-block}
 ## Our Sponsors {#sponsors}
 
-[Contact us](/posts/2024-02-08-for-organizers.qmd) to sponsor our event or become a project partner or email us at [info@socialjusticehackathon.com](mailto:info@socialjusticehackathon.com)
+```{r}
+div(
+    class="sponsor-logos",
+    a(
+        href="https://drexel.edu/law/",
+        target="_blank",
+        img(
+            src="assets/sponsors/drexel-law-school.png",
+            alt="Drexel Law School Logo"
+        )
+    ),
+    a(
+        href="https://www.law.upenn.edu/",
+        target="_blank",
+        img(
+            src="assets/sponsors/fpi logo.png",
+            alt="Penn Law School Logo"
+        )
+    ),
+    a(
+        href="https://law.temple.edu/ilit/",
+        target="_blank",
+        img(
+            src="assets/sponsors/iLIT__White_Vert_Red_Black_Horiz (1).png",
+            alt="Temple iLIT Logo"
+        )
+    ),
+    a(
+        href="https://www.meetup.com/LegalHackersPA/",
+        target="_blank",
+        img(
+            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.png",
+            alt="Philadelphia Legal Hackers Logo"
+        )
+    ),
+    a(
+        href="https://www.rladiesphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/rladies logo.png",
+            alt="R Ladies Philly Logo"
+        )
+    ),
+    a(
+        href="https://codeforphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/code-for-philly.png",
+            alt="Code for Philly Logo"
+        )
+    )
+)
+```
 :::::: 

@@ -159,6 +159,15 @@ a {
     padding-bottom: 0em !important;
 }
 
+.sponsor-logos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  img {
+    max-height: 50px;
+  }
+}
+
 @media(min-width: 720px) {
   .hero-banner {
     h1, h3 {
