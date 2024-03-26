@@ -28,9 +28,6 @@ website:
         text: "Submit a project"
       - href: "mailto:info@socialjusticehackathon.com"
         text: "Become a sponsor"
-    right:
-      - href: "mailto:info@socialjusticehackathon.com"
-        text: "Contact us"
     background: "#6D157A"
     foreground: "#FFFFFF"
   open-graph:

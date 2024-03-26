@@ -78,7 +78,7 @@ h3(
 
 :::::: {.content-block}
 :::{.hero-text .content-block}
-  The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.
+  Students, programmers, “civic-minded hackers”, faculty, justice advocates, public servants, community legal providers, writers, story-tellers, and members of the Philly community will all come together to design creative solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
 :::
 ::: {.list .grid}
       
@@ -175,7 +175,7 @@ div(
         href="https://www.meetup.com/LegalHackersPA/",
         target="_blank",
         img(
-            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.png",
+            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.gif",
             alt="Philadelphia Legal Hackers Logo"
         )
     ),

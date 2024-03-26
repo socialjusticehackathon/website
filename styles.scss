@@ -87,6 +87,13 @@ a {
   margin-right: 30px;
 }
 
+.nav-footer-left {
+  flex: none !important;
+  .footer-items {
+    display: block !important;
+  }
+}
+
 .feature-blocks .grid {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -103,6 +110,14 @@ a {
   background-position: center;
   color: white;
   height: 480px;
+  display: flex;
+  /* Uncomment below to vertically center text */
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  /* outline letters in black */
+  /* from https://stackoverflow.com/a/4772914 */
+  text-shadow: 1px 0px 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 
   h1 {
     font-size: 32px;
