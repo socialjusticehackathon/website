@@ -47,11 +47,11 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r}
 a(
   class="preview-link",
-  href="https://www.eventbrite.com/e/860575954847",
+  href="https://www.eventbrite.com/e/sjhphl-open-data-for-legal-aid-projects-and-pizza-tickets-860772532817",
   target="_blank",
   p(
     class="hero-link content-block",
-    HTML("Pre-Hackathon Events: Join us for Open Source Tech in Legal Aid this Thurs, March 21, 2024, at the Drexel Kline School of Law! Learn about challenge projects and data to get ready for the #SJHPHL Hackathon in April")
+    HTML("<b>Pre-Hackathon Events:</b> Join us for Open Data for Legal Aid Projects this Thurs, March 28, 2024, at the Drexel Kline School of Law! Learn about challenge projects and data to get ready for the #SJHPHL Hackathon in April")
   )
 )
 ```
