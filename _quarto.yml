@@ -5,20 +5,31 @@ resources:
   - CNAME
 
 website:
-  title: "#SJHPHL"
   navbar:
+    logo: "assets/logo-large.svg"
     left:
+      - href: index.qmd
+        text: "#SJHPHL"
       - href: about.qmd
         text: About
       - href: events.qmd
         text: Events
-      - href: schedule-venue.qmd
       - posts/index.qmd
     right:
       - icon: github
         href: https://github.com/socialjusticehackathon/
       - icon: twitter
         href: https://twitter.com/ssjhackathon
+  page-footer:
+    left:
+      - href: "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
+        text: "Register for event"
+      - href: "http://tinyurl.com/sjhphlchallenge"
+        text: "Submit a project"
+      - href: "mailto:info@socialjusticehackathon.com"
+        text: "Become a sponsor"
+    background: "#6D157A"
+    foreground: "#FFFFFF"
   open-graph:
     title: "Philadelphia Social Justice Hackathon"
     description: "The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community."

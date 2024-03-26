@@ -1,0 +1,208 @@
+---
+pagetitle: "Philly Social Justice Hackathon"
+page-layout: custom
+section-divs: false
+toc: false
+anchor-sections: true # not working?
+aliases:
+  - index.html
+execute: 
+  echo: false
+  output: asis
+  warning: false
+---
+
+
+```{r workspace}
+#| include: false
+library(htmltools)
+library(shiny) # markdown()
+library(glue)
+
+general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
+  class_info <- 
+    paste(
+      "card",       # card class
+      # about card
+      "rounded-3",  # border-radius = 0.3rem
+      "m-2",        # margin all sides: 0.5rem
+      # about grid placement
+      glue("g-col-lg-{12/lg}"), # when >=1200px use {lg} cols per card (ex. 3 across)
+      glue("g-col-md-{12/md}"), # when >= 992px use {md} cols per card (ex. 2 across)
+      glue("g-col-sm-{12/sm}"), # when >= 768px use {sm} cols per card (ex. 2 across)
+      glue("g-col-{12/xs}")     # when  < 576px use {xs} cols per card (ex. 1 across)
+    )
+  
+  div(
+    class = class_info,
+    style = "background: #8f4b99;",
+    ...
+  )
+}
+```
+
+<!-- HERO BANNER -->
+
+::: {.content-block}
+```{r}
+a(
+  class="preview-link",
+  href="https://www.eventbrite.com/e/sjhphl-open-data-for-legal-aid-projects-and-pizza-tickets-860772532817",
+  target="_blank",
+  p(
+    class="hero-link content-block",
+    HTML("<b>Pre-Hackathon Events:</b> Join us for Open Data for Legal Aid Projects this Thurs, March 28, 2024, at the Drexel Kline School of Law! Learn about challenge projects and data to get ready for the #SJHPHL Hackathon in April")
+  )
+)
+```
+:::
+
+::: {.hero-banner .text-center}
+```{r hero-banner}
+h3(
+    class="text-left",
+    HTML("Philly's 2nd")
+)
+h1(
+  class = "text-left hero-title",
+  HTML("Social Justice Hackathon")
+)
+h3(
+    class="text-left",
+    HTML("April 5th-7th @ Drexel Kline School of Law")
+)
+```
+:::
+
+<!-- /HERO BANNER -->
+
+:::::: {.content-block}
+:::{.hero-text .content-block}
+  Students, programmers, “civic-minded hackers”, faculty, justice advocates, public servants, community legal providers, writers, story-tellers, and members of the Philly community will all come together to design creative solutions to respond to specific justice needs of residents and neighborhoods most impacted by social, economic, and environmental injustices in Philadelphia.
+:::
+::: {.list .grid}
+      
+```{r info-cards}
+add_info_card <- function(title, body, button_text, button_link) {
+  general_card_div(
+    div(
+      class = "card-body",
+      # title
+      tags$section(
+        class = "card-title text-center",       
+        h5(title)
+      ),
+      # body
+      br(),
+      p(body),
+      br()
+    ),
+    # button
+    div(
+      class = "d-flex justify-content-center mb-3",
+      #class = "card-footer",
+      tags$a(
+        class = "btn btn-action btn-primary btn-action-primary justify-content-center",
+        button_text,
+        href = button_link
+      )
+    )
+  )
+}
+
+add_info_card(
+  title = "Free to Attend", 
+  body = 
+    "Free to attend and open to everyone, regardless of coding experience 
+    or affiliation with an organization or university.", 
+  button_text = "Register", 
+  button_link = "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
+)
+
+add_info_card(
+  title = "Community Driven", 
+  body = 
+    "Are you a justice advocate, public servant, or community legal provider?
+    Help us create impactful projects. Or volunteer as a project mentor.", 
+  button_text = "Get Involved", 
+  button_link = "/posts/2024-02-08-for-organizers.qmd"
+)
+
+add_info_card(
+  title = "Volunteer for the event", 
+  body = 
+    "Interested in helping us run the event itself? 
+    Great for those trying to provide excellent volunteer experiences
+    or to get hands-on experience running events.", 
+  button_text = "Volunteer", 
+  button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
+)
+```
+:::
+::::::
+
+:::::: {.content-block}
+## Our Sponsors {#sponsors}
+
+```{r}
+div(
+    class="sponsor-logos",
+    a(
+        href="https://drexel.edu/law/",
+        target="_blank",
+        img(
+            src="assets/sponsors/drexel-law-school.png",
+            alt="Drexel Law School Logo"
+        )
+    ),
+    a(
+        href="https://www1.villanova.edu/university/law.html",
+        target="_blank",
+        img(
+            src="assets/sponsors/Villanova_VU19Blue.png",
+            alt="Villanova Law School Logo"
+        )
+    ),
+    a(
+        href="https://www.law.upenn.edu/",
+        target="_blank",
+        img(
+            src="assets/sponsors/fpi logo.png",
+            alt="Penn Law School Logo"
+        )
+    ),
+    a(
+        href="https://law.temple.edu/ilit/",
+        target="_blank",
+        img(
+            src="assets/sponsors/iLIT__White_Vert_Red_Black_Horiz (1).png",
+            alt="Temple iLIT Logo"
+        )
+    ),
+    a(
+        href="https://www.meetup.com/LegalHackersPA/",
+        target="_blank",
+        img(
+            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.gif",
+            alt="Philadelphia Legal Hackers Logo"
+        )
+    ),
+    a(
+        href="https://www.rladiesphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/rladies logo.png",
+            alt="R Ladies Philly Logo"
+        )
+    ),
+    a(
+        href="https://codeforphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/code-for-philly.png",
+            alt="Code for Philly Logo"
+        )
+    )
+)
+```
+:::::: 

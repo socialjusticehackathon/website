@@ -4,21 +4,24 @@
 // see https://github.com/thomaspark/bootswatch/blob/v5/dist/darkly/_variables.scss
 
 // for how the darkly theme sets variables
-$body-bg: #6D157A;
-$body-color: white;
-$link-color:white;
+$body-bg: #F7F3FF;
+$body-color: black;
+$link-color: #6D157A;
 $link-decoration: none;
-$navbar-bg: #6D157A;
-$primary: white;
+$navbar-bg: #F7F3FF;
+$primary: black;
 
 // this is a rough way to override very specific styles, that are not
 // straightforward to change in bootswatch. I've set it like this
 // to replicate the original sites button hover style.
 .btn.btn-primary {
-  color: #CE66C1;
+  color: black;
+  background-color: white;
   font-weight: 600;
+  border: none;
   --bs-btn-hover-bg: #CE66C1;
   --bs-btn-hover-color: white;
+  --bs-nav-link-color: black;
 }
 
 /* css styles */
@@ -33,15 +36,36 @@ html { font-family: 'Inter', sans-serif; }
   --bs-body-font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  color: white;
+  background-color: #8f4b99;
+  border-color: white;
+  border-radius: 0.5rem;
+}
+
 #quarto-header .nav-link {
   font-size: 24px;
 }
 
 /* INDEX PAGE ------------------------------------------ */
 
+.navbar-logo {
+  max-height: 100px !important;
+}
+
+.nav-link {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: #6D157A;
+}
+
 a {
   font-weight: bolder;
-  color: #50095d;
+  color: #6D157A;
 }
 
 /*
@@ -63,15 +87,44 @@ a {
   margin-right: 30px;
 }
 
+.nav-footer-left {
+  flex: none !important;
+  .footer-items {
+    display: block !important;
+  }
+}
+
 .feature-blocks .grid {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.preview-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .hero-banner {
-  background-image: url('./assets/about-page_hero-banner.svg');
-  background-size: auto 100%;
+  background-image: url('./assets/bg.png');
+  background-size: cover;
   background-position: center;
+  color: white;
+  height: 480px;
+  display: flex;
+  /* Uncomment below to vertically center text */
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  /* outline letters in black */
+  /* from https://stackoverflow.com/a/4772914 */
+  text-shadow: 1px 0px 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+  h1 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 16px;
+  }
 }
 
 .hero-banner-cta {
@@ -83,11 +136,15 @@ a {
 }
 
 .hero-title {
+  margin-top: 0;
+  padding-top: 0;
   font-size: 64px;
 }
 
 .hero-link {
-  color: 	#FFD700;
+  color: 	#6D157A;
+  padding-top: 0;
+  padding-bottom: 0;
   text-decoration: underline;
   font-weight: normal;
 }
@@ -98,6 +155,8 @@ a {
 }
 
 .card-body {
+  --bs-card-color: white;
+  --bs-link-color-rgb: pink;
   .person-bio {
     font-style: italic;
     font-size: 0.85rem;
@@ -113,6 +172,31 @@ a {
 
 .quarto-title-banner {
     padding-bottom: 0em !important;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  img {
+    max-height: 50px;
+  }
+}
+
+@media(min-width: 720px) {
+  .hero-banner {
+    h1, h3 {
+      display: inline-block;
+      width: 800px;
+      text-align: left;
+    }
+    h1 {
+      font-size: 64px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+  }
 }
 
 @media(min-width: 900px) {

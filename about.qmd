@@ -12,7 +12,7 @@ execute:
   warning: false
 ---
 
-
+:::::: {.content-block}
 ```{r workspace}
 #| include: false
 library(htmltools)
@@ -41,95 +41,6 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 }
 ```
 
-<!-- HERO BANNER -->
-
-::: {.hero-banner .text-center}
-```{r hero-banner}
-a(
-  href="https://www.eventbrite.com/e/860575954847",
-  target="_blank",
-  p(
-    class="hero-link content-block",
-    HTML("Pre-Hackathon Events: Join us for Open Source Tech in Legal Aid this Thurs, March 21, 2024, at the Drexel Kline School of Law! Learn about challenge projects and data to get ready for the #SJHPHL Hackathon in April")
-  )
-)
-h1(
-  class = "text-center hero-title",
-  HTML("Philadelphia Social Justice Hackathon")
-)
-p(
-  class="hero-text content-block",
-  HTML("The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community.")
-  )
-```
-:::
-
-<!-- /HERO BANNER -->
-
-:::::: {.content-block}
-::: {.list .grid}
-      
-```{r info-cards}
-add_info_card <- function(title, body, button_text, button_link) {
-  general_card_div(
-    div(
-      class = "card-body",
-      # title
-      tags$section(
-        class = "card-title text-center",       
-        h5(title)#, style = "color: #6D157A; font-weight: bold;")
-      ),
-      # body
-      br(),
-      p(body),
-      br()
-    ),
-    # button
-    div(
-      class = "d-flex justify-content-center mb-3",
-      #class = "card-footer",
-      tags$a(
-        class = "btn btn-action btn-primary btn-action-primary justify-content-center",
-        button_text,
-        href = button_link
-      )
-    )
-  )
-}
-
-add_info_card(
-  title = "Free to Attend", 
-  body = 
-    "Free to attend and open to everyone, regardless of coding experience 
-    or affiliation with an organization or university.", 
-  button_text = "Register", 
-  button_link = "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
-)
-
-add_info_card(
-  title = "Community Driven", 
-  body = 
-    "Are you a justice advocate, public servant, or community legal provider?
-    Help us create impactful projects. Or volunteer as a project mentor.", 
-  button_text = "Get Involved", 
-  button_link = "/posts/2024-02-08-for-organizers.qmd"
-)
-
-add_info_card(
-  title = "Volunteer for the event", 
-  body = 
-    "Interested in helping us run the event itself? 
-    Great for those trying to provide excellent volunteer experiences
-    or to get hands-on experience running events.", 
-  button_text = "Volunteer", 
-  button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
-)
-```
-:::
-::::::
-
-:::::: {.content-block}
-
 ## About the Event
 ::: {.grid}
 ::: {.g-col-lg-8 .g-col-12}
@@ -145,17 +56,6 @@ Together, attendees will work on technology solutions to respond to specific jus
 :::
 :::
 ::::::
-
-<!-- TODO: Add content for these -->
-<!-- :::::: {.content-block}
-## The Format
-
-:::::: 
-
-:::::: {.content-block}
-## Host Institutions
-
-::::::  -->
 
 :::::: {.content-block}
 
@@ -220,19 +120,59 @@ lapply(
 ::::::
 
 :::::: {.content-block}
-## Ready to Join Us? {#register}
-
-[Register to participate in the event here](https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867)
-:::::: 
-
-:::::: {.content-block}
-## Submit a Project
-
-[Submit a project with this form](http://tinyurl.com/sjhphlchallenge)
-:::::: 
-
-:::::: {.content-block}
 ## Our Sponsors {#sponsors}
 
-[Contact us](/posts/2024-02-08-for-organizers.qmd) to sponsor our event or become a project partner or email us at [info@socialjusticehackathon.com](mailto:info@socialjusticehackathon.com)
+```{r}
+div(
+    class="sponsor-logos",
+    a(
+        href="https://drexel.edu/law/",
+        target="_blank",
+        img(
+            src="assets/sponsors/drexel-law-school.png",
+            alt="Drexel Law School Logo"
+        )
+    ),
+    a(
+        href="https://www.law.upenn.edu/",
+        target="_blank",
+        img(
+            src="assets/sponsors/fpi logo.png",
+            alt="Penn Law School Logo"
+        )
+    ),
+    a(
+        href="https://law.temple.edu/ilit/",
+        target="_blank",
+        img(
+            src="assets/sponsors/iLIT__White_Vert_Red_Black_Horiz (1).png",
+            alt="Temple iLIT Logo"
+        )
+    ),
+    a(
+        href="https://www.meetup.com/LegalHackersPA/",
+        target="_blank",
+        img(
+            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.png",
+            alt="Philadelphia Legal Hackers Logo"
+        )
+    ),
+    a(
+        href="https://www.rladiesphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/rladies logo.png",
+            alt="R Ladies Philly Logo"
+        )
+    ),
+    a(
+        href="https://codeforphilly.org/",
+        target="_blank",
+        img(
+            src="assets/sponsors/code-for-philly.png",
+            alt="Code for Philly Logo"
+        )
+    )
+)
+```
 :::::: 
