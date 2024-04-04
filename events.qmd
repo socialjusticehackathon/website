@@ -73,14 +73,6 @@ add_info_card <- function(title, body, button_text, button_link) {
 }
 
 add_info_card(
-  title = "Open Data for Legal Aid Projects", 
-  body = 
-    "Date: March 28, 2024", 
-  button_text = "Register now", 
-  button_link = "https://www.eventbrite.com/e/sjhphl-open-data-for-legal-aid-projects-and-pizza-tickets-860772532817"
-)
-
-add_info_card(
   title = "Social Justice Hackathon", 
   body = 
     "Date: April 5-7, 2024", 
