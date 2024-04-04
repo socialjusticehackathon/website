@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "venue.html",
+    "href": "venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Venue details will be announced closer to the event."
+  },
+  {
     "objectID": "events.html",
     "href": "events.html",
     "title": "Events",
@@ -26,6 +33,62 @@
     "title": "Events",
     "section": "",
     "text": "Drexel University Thomas R. Kline School of Law\n3320 Market St\nPhiladelphia, PA 19104\n\n\n\n\n\n\n\n\nSee this Drexel Directions page for more.\n\n\n\nThe Drexel Garage is located next to the law school. Proceed to 34th and Market Streets - there is a traffic light there - (you’ll also pass the Law School Building on your left before the light). Turn left onto 34th Street - and make an immediate left onto the next street - Ludlow Street. Turn immediately left up to the entrance ramp to the garage on Ludlow Street. Park, note your place number, and pay at the lobby kiosk. Come down the elevator, exit the building and walk right. The law school is immediately to the right of the garage, just past the front of the parking garage.\nMetered parking is also available on many of the surrounding streets. The meters accept quarters, dimes and nickels for timed parking."
+  },
+  {
+    "objectID": "challenges.html",
+    "href": "challenges.html",
+    "title": "Challenges",
+    "section": "",
+    "text": "You can bring your own challenge for your team to work on… but the best challenges at the hackathon are from our community partners!"
+  },
+  {
+    "objectID": "challenges.html#technology-partners",
+    "href": "challenges.html#technology-partners",
+    "title": "Challenges",
+    "section": "Technology Partners",
+    "text": "Technology Partners\nThanks to following partners for providing access, mentors and learning resources for their tools…"
+  },
+  {
+    "objectID": "challenges.html#community-partners",
+    "href": "challenges.html#community-partners",
+    "title": "Challenges",
+    "section": "Community Partners",
+    "text": "Community Partners\n\n\n\n\n\n\nTip\n\n\n\n\n\n\nPartner:The Merchants Fund\n\n\nAbout the non-profit: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nPartner: Community Legal Services\n\n\nAbout the non-profit: Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits."
+  },
+  {
+    "objectID": "challenges.html#featured-challenges",
+    "href": "challenges.html#featured-challenges",
+    "title": "Challenges",
+    "section": "Featured Challenges",
+    "text": "Featured Challenges\nThis section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.\n\nCreate a one-stop digital guide to starting a restaurant in Philadelphia​\nGoal: Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.\nThe Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.\n\n\nBuild a tool for advocates to calculate SNAP benefits for clients​\nGoal: Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.\nThousands of families in Philadelphia depend on assistance to access healthy food. Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.\nSome advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "SJHPHL 2024 - Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nSJHPHL 2022 - Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\nThe Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education\n\n\n\n\n\n#SJHPHL 2022 - CALICon Presentation\n\n\n\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\nThis weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint\n\n\n\n\n\n#SJHPHL 2022 - Philadelphia Inquirer Article\n\n\n\n\n\nOct 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nInto open data and social justice? This October hackathon at Drexel is for you\n\n\n\n\n\n#SJHPHL 2022 - Technical.ly Post\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nSeattle Social Justice Hackathon 2015 - Recap & Demo Day\n\n\n\n\n\n#SSJH\n\n\n\n\n\nFeb 1, 2016\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html",
+    "href": "posts/2024-02-08-for-organizers.html",
+    "title": "SJHPHL 2024 - Call for Projects and Mentors",
+    "section": "",
+    "text": "The Philadelphia Social Justice Hackathon Law (SJHPHL) is a weekend long hackathon occuring April 5-7, 2024. Students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "href": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
+    "title": "SJHPHL 2024 - Call for Projects and Mentors",
+    "section": "Let us know what we can build for you!",
+    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
+  },
+  {
+    "objectID": "posts/2024-02-08-for-organizers.html#contact-us",
+    "href": "posts/2024-02-08-for-organizers.html#contact-us",
+    "title": "SJHPHL 2024 - Call for Projects and Mentors",
+    "section": "Contact us!",
+    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
   },
   {
     "objectID": "posts/2024-01-18-recap-of-2022.html",
@@ -103,68 +166,5 @@
     "title": "SJHPHL 2022 - Project Recap",
     "section": "Online Dispute Resolution for Security Deposits",
     "text": "Online Dispute Resolution for Security Deposits\nParticipants: Javier Martinez and Chris Collins\nBackground\nThere is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.\nWhat they built\nDevelop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.\nProject Links\n\nEscrow.ritza.repl.co\nGitHub Repo\nPresentation on youtube (1:23:18)\n\n\n\nLast but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! #SJHPHL pic.twitter.com/Nq0exQ0Kbo\n\n— #SJHPHL Philly's First Social Justice Hackathon (@ssjhackathon) October 30, 2022"
-  },
-  {
-    "objectID": "venue.html",
-    "href": "venue.html",
-    "title": "Venue",
-    "section": "",
-    "text": "Venue details will be announced closer to the event."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "SJHPHL 2024 - Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nSJHPHL 2022 - Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\nThe Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education\n\n\n\n\n\n#SJHPHL 2022 - CALICon Presentation\n\n\n\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\nThis weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint\n\n\n\n\n\n#SJHPHL 2022 - Philadelphia Inquirer Article\n\n\n\n\n\nOct 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nInto open data and social justice? This October hackathon at Drexel is for you\n\n\n\n\n\n#SJHPHL 2022 - Technical.ly Post\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nSeattle Social Justice Hackathon 2015 - Recap & Demo Day\n\n\n\n\n\n#SSJH\n\n\n\n\n\nFeb 1, 2016\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2024-02-08-for-organizers.html",
-    "href": "posts/2024-02-08-for-organizers.html",
-    "title": "SJHPHL 2024 - Call for Projects and Mentors",
-    "section": "",
-    "text": "The Philadelphia Social Justice Hackathon Law (SJHPHL) is a weekend long hackathon occuring April 5-7, 2024. Students, programmers, data scientists, and other eager advocates and community members will spend a weekend designing solutions to social justice problems and challenges. Examples of projects include:"
-  },
-  {
-    "objectID": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "href": "posts/2024-02-08-for-organizers.html#let-us-know-what-we-can-build-for-you",
-    "title": "SJHPHL 2024 - Call for Projects and Mentors",
-    "section": "Let us know what we can build for you!",
-    "text": "Let us know what we can build for you!\nYou have experience with pressing social justice challenges in Philadelphia. We need your insights to mobilize these teams in the right direction.\nWould you be willing to provide a brief description of potential projects and let us know if you are available to meet with us to review them?\nWe invite you to\n\nShare your expertise with participants\nProvide challenges participants can design and develop solutions for at the hackathon\nWork with the hackathon committee to develop long-term collaborations.\n\nOur event will bring together as many as 150 volunteers with a wide range of expertise, including coding, law, and policy. Participants will divide into teams and spend two intense days building tailored solutions to the challenges you’ve presented."
-  },
-  {
-    "objectID": "posts/2024-02-08-for-organizers.html#contact-us",
-    "href": "posts/2024-02-08-for-organizers.html#contact-us",
-    "title": "SJHPHL 2024 - Call for Projects and Mentors",
-    "section": "Contact us!",
-    "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
-  },
-  {
-    "objectID": "challenges.html",
-    "href": "challenges.html",
-    "title": "Challenges",
-    "section": "",
-    "text": "You can bring your own challenge for your team to work on… but the best challenges at the hackathon are from our community partners!"
-  },
-  {
-    "objectID": "challenges.html#technology-partners",
-    "href": "challenges.html#technology-partners",
-    "title": "Challenges",
-    "section": "Technology Partners",
-    "text": "Technology Partners\nThanks to following partners for providing access, mentors and learning resources for their tools…"
-  },
-  {
-    "objectID": "challenges.html#community-partners",
-    "href": "challenges.html#community-partners",
-    "title": "Challenges",
-    "section": "Community Partners",
-    "text": "Community Partners\n\n\n\n\n\n\nTip\n\n\n\n\n\n\nPartner:The Merchants Fund\n\n\nAbout the non-profit: The Merchants Fund, a Philadelphia charity established in 1854, provides charitable gifts to business persons facing financial hardship.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nPartner: Community Legal Services\n\n\nAbout the non-profit: Community Legal Services is a non-profit legal services firm that represents approximately 10,000 low income Philadelphians every year in a diverse range of civil legal matters. Their health and independents unit helps clients access medical insurance, SNAP, and other vital programs. The advocates at CLS are hopeful for a solution that not only meets their needs but can also easily be shared with advocates at other orgnaizations who need assistance to accurately calculate SNAP benefits."
-  },
-  {
-    "objectID": "challenges.html#featured-challenges",
-    "href": "challenges.html#featured-challenges",
-    "title": "Challenges",
-    "section": "Featured Challenges",
-    "text": "Featured Challenges\nThis section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.\n\nCreate a one-stop digital guide to starting a restaurant in Philadelphia​\nGoal: Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.\nThe Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.\n\n\nBuild a tool for advocates to calculate SNAP benefits for clients​\nGoal: Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.\nThousands of families in Philadelphia depend on assistance to access healthy food. Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.\nSome advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs."
   }
 ]
