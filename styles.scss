@@ -179,6 +179,8 @@ a {
   flex-flow: row wrap;
   justify-content: space-evenly;
   img {
+    margin: 4px;
+    max-width: 150px;
     max-height: 50px;
   }
 }
