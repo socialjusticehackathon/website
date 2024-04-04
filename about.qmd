@@ -188,6 +188,14 @@ div(
             src="assets/sponsors/Gavel logo with transparent background.png",
             alt="Gavel Logo"
         )
+    ),
+    a(
+        href="https://badgecert.com/",
+        target="_blank",
+        img(
+            src="assets/sponsors/BadgeCert Logo.png",
+            alt="BadgeCert Logo"
+        )
     )
 )
 ```
