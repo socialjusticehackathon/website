@@ -47,11 +47,11 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r}
 a(
   class="preview-link",
-  href="https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867",
+  href="#",
   target="_blank",
   p(
     class="hero-link content-block",
-    HTML("<b>Register for free!</b> Join us April 5-7 for Philly's 2nd Social Justice Hackathon!")
+    HTML("<b>Registration coming soon!</b> Join us March 27-29 for Philly's 3rd Social Justice Hackathon!")
   )
 )
 ```
@@ -61,7 +61,7 @@ a(
 ```{r hero-banner}
 h3(
     class="text-left",
-    HTML("Philly's 2nd")
+    HTML("Philly's 3rd")
 )
 h1(
   class = "text-left hero-title",
@@ -69,7 +69,7 @@ h1(
 )
 h3(
     class="text-left",
-    HTML("April 5th-7th @ Drexel Kline School of Law")
+    HTML("March 27th-29th @ Penn Carey Law School")
 )
 ```
 :::
@@ -111,12 +111,12 @@ add_info_card <- function(title, body, button_text, button_link) {
 }
 
 add_info_card(
-  title = "Free to Attend", 
-  body = 
-    "Free to attend and open to everyone, regardless of coding experience 
-    or affiliation with an organization or university.", 
-  button_text = "Register", 
-  button_link = "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
+  title = "Free to Attend",
+  body =
+    "Free to attend and open to everyone, regardless of coding experience
+    or affiliation with an organization or university.",
+  button_text = "Coming Soon",
+  button_link = "#"
 )
 
 add_info_card(
@@ -134,8 +134,8 @@ add_info_card(
     "Interested in helping us run the event itself? 
     Great for those trying to provide excellent volunteer experiences
     or to get hands-on experience running events.", 
-  button_text = "Volunteer", 
-  button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
+  button_text = "Volunteer",
+  button_link = "https://docs.google.com/forms/d/e/1FAIpQLScazbhnRvFCYoIeX2Xi2_I0oyvTrxsCkO2xgBezbg8UArwK-g/viewform"
 )
 ```
 :::
