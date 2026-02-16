@@ -12,11 +12,14 @@ execute:
   warning: false
 ---
 
+
+
+
 :::::: {.content-block}
 ```{r workspace}
 #| include: false
 library(htmltools)
-library(shiny) # markdown()
+library(commonmark)
 library(glue)
 
 general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
@@ -93,7 +96,7 @@ add_profile_card <- function(person, personList) {
       ),
       p(
           class = "text-center person-bio",
-          shiny::markdown(info$bio)
+          HTML(commonmark::markdown_html(info$bio))
         )
     )
   )
@@ -153,7 +156,7 @@ div(
         href="https://www.meetup.com/LegalHackersPA/",
         target="_blank",
         img(
-            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.png",
+            src="assets/sponsors/philly-legal-hackers.gif",
             alt="Philadelphia Legal Hackers Logo"
         )
     ),
@@ -173,30 +176,30 @@ div(
             alt="Code for Philly Logo"
         )
     ),
-    a(
-        href="https://neota.com/",
-        target="_blank",
-        img(
-            src="assets/sponsors/neota-logo.png",
-            alt="Neota Logo"
-        )
-    ),
-    a(
-        href="https://www.gavel.io",
-        target="_blank",
-        img(
-            src="assets/sponsors/Gavel logo with transparent background.png",
-            alt="Gavel Logo"
-        )
-    ),
-    a(
-        href="https://badgecert.com/",
-        target="_blank",
-        img(
-            src="assets/sponsors/BadgeCert Logo.png",
-            alt="BadgeCert Logo"
-        )
-    )
+    #a(
+    #    href="https://neota.com/",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/neota-logo.png",
+    #        alt="Neota Logo"
+    #    )
+    #),
+    #a(
+    #    href="https://www.gavel.io",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/Gavel logo with transparent background.png",
+    #        alt="Gavel Logo"
+    #    )
+    #),
+    #a(
+    #    href="https://badgecert.com/",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/BadgeCert Logo.png",
+    #        alt="BadgeCert Logo"
+    #    )
+    #)
 )
 ```
 :::::: 

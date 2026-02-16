@@ -24,8 +24,8 @@ website:
     left:
       # - href: "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
       #   text: "Register for event"
-      - href: "http://tinyurl.com/sjhphlchallenge"
-        text: "Submit a project"
+      - href: "#"
+        text: "Submit a project (coming soon)"
       - href: "mailto:info@socialjusticehackathon.com"
         text: "Become a sponsor"
     background: "#6D157A"

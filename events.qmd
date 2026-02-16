@@ -9,7 +9,6 @@ execute:
 ```{r workspace}
 #| include: false
 library(htmltools)
-library(shiny) # markdown()
 library(glue)
 
 general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
@@ -36,7 +35,7 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 
 :::::: {.content-block}
 
-All events will take place at University of Pennsylvania Carey Law School<br>
+The Social Justice Hackathon will take place at University of Pennsylvania Carey Law School<br>
 3501 Sansom St, Philadelphia, PA 19104
 
 ## Upcoming Events
@@ -71,6 +70,14 @@ add_info_card <- function(title, body, button_text, button_link) {
     )
   )
 }
+
+add_info_card(
+  title = "Hack Night \n(Temple)",
+  body =
+    "Date: March 12, 2026",
+  button_text = "Coming Soon",
+  button_link = "#"
+)
 
 add_info_card(
   title = "Social Justice Hackathon",
