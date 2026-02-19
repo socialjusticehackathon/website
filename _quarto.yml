@@ -22,8 +22,8 @@ website:
         href: https://twitter.com/ssjhackathon
   page-footer:
     left:
-      # - href: "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
-      #   text: "Register for event"
+      - href: "https://www.eventbrite.com/e/sjhphl-hack-night-prep-for-philadelphia-social-justice-hackathon-tickets-1983381897647"
+        text: "Register for event"
       - href: "#"
         text: "Submit a project (coming soon)"
       - href: "mailto:info@socialjusticehackathon.com"
