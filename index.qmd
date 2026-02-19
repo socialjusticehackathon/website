@@ -16,7 +16,6 @@ execute:
 ```{r workspace}
 #| include: false
 library(htmltools)
-library(shiny) # markdown()
 library(glue)
 
 general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
@@ -47,11 +46,11 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r}
 a(
   class="preview-link",
-  href="https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867",
+  href="https://www.eventbrite.com/e/1983329295312",
   target="_blank",
   p(
     class="hero-link content-block",
-    HTML("<b>Register for free!</b> Join us April 5-7 for Philly's 2nd Social Justice Hackathon!")
+    HTML("<b>Join us March 27-29 for Philly's 3rd Social Justice Hackathon!</b>")
   )
 )
 ```
@@ -61,7 +60,7 @@ a(
 ```{r hero-banner}
 h3(
     class="text-left",
-    HTML("Philly's 2nd")
+    HTML("Philly's 3rd")
 )
 h1(
   class = "text-left hero-title",
@@ -69,7 +68,7 @@ h1(
 )
 h3(
     class="text-left",
-    HTML("April 5th-7th @ Drexel Kline School of Law")
+    HTML("March 27th-29th @ Penn Carey Law School")
 )
 ```
 :::
@@ -111,21 +110,21 @@ add_info_card <- function(title, body, button_text, button_link) {
 }
 
 add_info_card(
-  title = "Free to Attend", 
-  body = 
-    "Free to attend and open to everyone, regardless of coding experience 
-    or affiliation with an organization or university.", 
-  button_text = "Register", 
-  button_link = "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
+  title = "Free to Attend",
+  body =
+    "Free to attend and open to everyone, regardless of coding experience
+    or affiliation with an organization or university.",
+  button_text = "Register",
+  button_link = "https://www.eventbrite.com/e/1983329295312"
 )
 
 add_info_card(
   title = "Community Driven", 
   body = 
     "Are you a justice advocate, public servant, or community legal provider?
-    Help us create impactful projects. Or volunteer as a project mentor.", 
-  button_text = "Get Involved", 
-  button_link = "/posts/2024-02-08-for-organizers.qmd"
+    Help us create impactful projects, by submitting a project idea.", 
+  button_text = "Submit Project Idea", 
+  button_link = "https://docs.google.com/forms/d/e/1FAIpQLSfUVtuWdj3NytRAThzxfP9og4ZH9EJjzq1DSzb58CEmqItCcQ/viewform"
 )
 
 add_info_card(
@@ -134,8 +133,8 @@ add_info_card(
     "Interested in helping us run the event itself? 
     Great for those trying to provide excellent volunteer experiences
     or to get hands-on experience running events.", 
-  button_text = "Volunteer", 
-  button_link = "https://forms.gle/2Nc41iEoTqveGCQU7"
+  button_text = "Volunteer",
+  button_link = "https://docs.google.com/forms/d/e/1FAIpQLScazbhnRvFCYoIeX2Xi2_I0oyvTrxsCkO2xgBezbg8UArwK-g/viewform"
 )
 ```
 :::
@@ -183,7 +182,7 @@ div(
         href="https://www.meetup.com/LegalHackersPA/",
         target="_blank",
         img(
-            src="assets/sponsors/PhiladelphiaChapterOfLegalHackers_Logo_111623.gif",
+            src="assets/sponsors/philly-legal-hackers.gif",
             alt="Philadelphia Legal Hackers Logo"
         )
     ),
@@ -203,30 +202,30 @@ div(
             alt="Code for Philly Logo"
         )
     ),
-    a(
-        href="https://neota.com/",
-        target="_blank",
-        img(
-            src="assets/sponsors/neota-logo.png",
-            alt="Neota Logo"
-        )
-    ),
-    a(
-        href="https://www.gavel.io",
-        target="_blank",
-        img(
-            src="assets/sponsors/Gavel logo with transparent background.png",
-            alt="Gavel Logo"
-        )
-    ),
-    a(
-        href="https://badgecert.com/",
-        target="_blank",
-        img(
-            src="assets/sponsors/BadgeCert Logo.png",
-            alt="BadgeCert Logo"
-        )
-    )
+    #a(
+    #    href="https://neota.com/",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/neota-logo.png",
+    #        alt="Neota Logo"
+    #    )
+    #),
+    #a(
+    #    href="https://www.gavel.io",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/Gavel logo with transparent background.png",
+    #        alt="Gavel Logo"
+    #    )
+    #),
+    #a(
+    #    href="https://badgecert.com/",
+    #    target="_blank",
+    #    img(
+    #        src="assets/sponsors/BadgeCert Logo.png",
+    #        alt="BadgeCert Logo"
+    #    )
+    #)
 )
 ```
 :::::: 

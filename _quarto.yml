@@ -22,9 +22,9 @@ website:
         href: https://twitter.com/ssjhackathon
   page-footer:
     left:
-      - href: "https://www.eventbrite.com/e/philadelphias-social-justice-hackathon-tickets-829209476867"
+      - href: "https://www.eventbrite.com/e/1983329295312"
         text: "Register for event"
-      - href: "http://tinyurl.com/sjhphlchallenge"
+      - href: "https://docs.google.com/forms/d/e/1FAIpQLSfUVtuWdj3NytRAThzxfP9og4ZH9EJjzq1DSzb58CEmqItCcQ/viewform?usp=sharing"
         text: "Submit a project"
       - href: "mailto:info@socialjusticehackathon.com"
         text: "Become a sponsor"
@@ -32,11 +32,11 @@ website:
     foreground: "#FFFFFF"
   open-graph:
     title: "Philadelphia Social Justice Hackathon"
-    description: "The Philadelphia Social Justice Hackathon will be held at the Drexel Law School from April 5-7, 2024, to bring students, programmers, and other “civic-minded hackers” together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community."
+    description: "The Philadelphia Social Justice Hackathon will be held at Penn Carey Law School from March 27-29, 2026, to bring students, programmers, and other 'civic-minded hackers' together – to work in collaboration with justice advocates, public servants, community legal providers, and members of the community."
     image: "/assets/preview.png"
     image-height: 500
     image-width: 1500
-    image-alt: "A purple banner with the text: Philadelphia's Social Justice Hackathon; Drexel's Kline School of Law; April 5-7"
+    image-alt: "A purple banner with the text: Philadelphia's Social Justice Hackathon; Penn Carey Law School; March 27-29"
     locale: en_US
     site-name: "#SJHPHL"
 format:
