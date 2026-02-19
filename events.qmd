@@ -75,7 +75,7 @@ add_info_card(
   title = "Hack Night \n(Temple)",
   body =
     "Date: March 12, 2026",
-  button_text = "Coming Soon",
+  button_text = "Register now",
   button_link = "https://www.eventbrite.com/e/sjhphl-hack-night-prep-for-philadelphia-social-justice-hackathon-tickets-1983381897647"
 )
 
@@ -83,7 +83,7 @@ add_info_card(
   title = "Social Justice Hackathon",
   body =
     "Date: March 27-29, 2026",
-  button_text = "Coming Soon",
+  button_text = "Register now",
   button_link = "https://www.eventbrite.com/e/1983329295312"
 )
 ```
