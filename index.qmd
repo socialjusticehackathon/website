@@ -115,7 +115,7 @@ add_info_card(
     "Free to attend and open to everyone, regardless of coding experience
     or affiliation with an organization or university.",
   button_text = "Register",
-  button_link = "https://www.eventbrite.com/e/sjhphl-hack-night-prep-for-philadelphia-social-justice-hackathon-tickets-1983381897647"
+  button_link = "https://www.eventbrite.com/e/1983329295312"
 )
 
 add_info_card(
