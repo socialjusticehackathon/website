@@ -46,7 +46,7 @@ general_card_div <- function(..., lg = 3, md = 2, sm = 2, xs = 1) {
 ```{r}
 a(
   class="preview-link",
-  href="https://www.eventbrite.com/e/sjhphl-hack-night-prep-for-philadelphia-social-justice-hackathon-tickets-1983381897647",
+  href="https://www.eventbrite.com/e/1983329295312",
   target="_blank",
   p(
     class="hero-link content-block",
@@ -123,8 +123,8 @@ add_info_card(
   body = 
     "Are you a justice advocate, public servant, or community legal provider?
     Help us create impactful projects, by submitting a project idea.", 
-  button_text = "Coming Soon", 
-  button_link = "#"
+  button_text = "Submit Project Idea", 
+  button_link = "https://docs.google.com/forms/d/e/1FAIpQLSfUVtuWdj3NytRAThzxfP9og4ZH9EJjzq1DSzb58CEmqItCcQ/viewform"
 )
 
 add_info_card(
