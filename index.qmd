@@ -66,6 +66,10 @@ h1(
   class = "text-left hero-title",
   HTML("Social Justice Hackathon")
 )
+h4(
+    class="text-left",
+    HTML("A Tech for Change Hackathon")
+)
 h3(
     class="text-left",
     HTML("March 27th-29th @ Penn Carey Law School")
