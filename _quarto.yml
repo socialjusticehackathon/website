@@ -14,6 +14,8 @@ website:
         text: About
       - href: events.qmd
         text: Events
+      - href: faq.qmd
+        text: FAQ
       - posts/index.qmd
     right:
       - icon: github
