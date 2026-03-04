@@ -206,6 +206,15 @@ div(
             alt="Code for Philly Logo"
         )
     ),
+    a(
+        href="https://www.pit-un.org",
+        target="_blank",
+        img(
+            src="assets/sponsors/pit-un.png",
+            alt="PIT-UN Logo",
+            style="max-height: 30px;"
+        )
+    ),
     #a(
     #    href="https://neota.com/",
     #    target="_blank",
