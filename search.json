@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "A weekend event where students, programmers, faculty, justice advocates, public servants, community legal providers, writers, story-tellers, and members of the Philly community all come together to design creative solutions to respond to specific justice needs of Philly residents and neighborhoods.\n\n\n\nThe hackathon will be hosted at The University of Pennsylvania Carey Law School at 3501 Sansom Street, Philadelphia, PA 19104.\n\n\n\nThe Philadelphia Social Justice Hackathon is proudly hosted by the law schools of the University of Pennsylvania, Drexel University, Villanova University, and Temple University. These four institutions are united in their commitment to community‑driven innovation and equitable access to justice.\n\n\n\nNo coding or hacking experience is required. Our event is designed for all skill levels!\n\n\n\nNo – all events are free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university!"
+  },
+  {
+    "objectID": "faq.html#general",
+    "href": "faq.html#general",
+    "title": "FAQ",
+    "section": "",
+    "text": "A weekend event where students, programmers, faculty, justice advocates, public servants, community legal providers, writers, story-tellers, and members of the Philly community all come together to design creative solutions to respond to specific justice needs of Philly residents and neighborhoods.\n\n\n\nThe hackathon will be hosted at The University of Pennsylvania Carey Law School at 3501 Sansom Street, Philadelphia, PA 19104.\n\n\n\nThe Philadelphia Social Justice Hackathon is proudly hosted by the law schools of the University of Pennsylvania, Drexel University, Villanova University, and Temple University. These four institutions are united in their commitment to community‑driven innovation and equitable access to justice.\n\n\n\nNo coding or hacking experience is required. Our event is designed for all skill levels!\n\n\n\nNo – all events are free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university!"
+  },
+  {
+    "objectID": "faq.html#event-specific",
+    "href": "faq.html#event-specific",
+    "title": "FAQ",
+    "section": "Event Specific",
+    "text": "Event Specific\n\nWhat do I need to participate?\nYou only need yourself. A computer or similar device is helpful but not required.\n\n\nWhat can I build?\nPlease submit a project proposal form. We’ll also hear project pitches during the opening session.\n\n\nWill hardware be provided?\nNo, hardware will not be provided.\n\n\nWhat will team sizes be?\nTeam sizes are flexible.\n\n\nHow are projects judged?\nProjects are evaluated using our published judging criteria."
+  },
+  {
+    "objectID": "faq.html#logistics",
+    "href": "faq.html#logistics",
+    "title": "FAQ",
+    "section": "Logistics",
+    "text": "Logistics\n\nWill food and drink be provided?\nYes. All meals, snacks, and drinks will be provided and available throughout the event.\n\n\nWhich days are the events?\nThe event begins Friday evening, continues all day Saturday, and concludes Sunday afternoon.\n\n\nWill the event run overnight?\nNo, the event will not run overnight.\n\nStill have questions? Please reach out to us at socialjusticehackathonphl@gmail.com."
+  },
+  {
+    "objectID": "venue.html",
+    "href": "venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Venue details will be announced closer to the event."
+  },
+  {
     "objectID": "posts/2024-01-18-recap-of-2022.html",
     "href": "posts/2024-01-18-recap-of-2022.html",
     "title": "SJHPHL 2022 - Project Recap",
@@ -77,6 +112,13 @@
     "text": "Online Dispute Resolution for Security Deposits\nParticipants: Javier Martinez and Chris Collins\nBackground\nThere is an asymmetry of power in the relation between tenants and landlords during disputes related to security deposits.\nWhat they built\nDevelop a system that creates an escrow contract that holds the security deposit. In the case of a dispute, a chatbot helps the users reach an agreement or automatically resolve it if it goes past the time-limit.\nProject Links\n\nEscrow.ritza.repl.co\nGitHub Repo\nPresentation on youtube (1:23:18)\n\n\n\nLast but not least, our final team worked on the issue of rental security deposits. The goal being to assert a tenant’s rights through technology! #SJHPHL pic.twitter.com/Nq0exQ0Kbo\n\n— #SJHPHL Philly's First Social Justice Hackathon (@ssjhackathon) October 30, 2022"
   },
   {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "SJHPHL 2024 - Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nSJHPHL 2022 - Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\nThe Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education\n\n\n\n\n\n#SJHPHL 2022 - CALICon Presentation\n\n\n\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\nThis weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint\n\n\n\n\n\n#SJHPHL 2022 - Philadelphia Inquirer Article\n\n\n\n\n\nOct 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nInto open data and social justice? This October hackathon at Drexel is for you\n\n\n\n\n\n#SJHPHL 2022 - Technical.ly Post\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nSeattle Social Justice Hackathon 2015 - Recap & Demo Day\n\n\n\n\n\n#SSJH\n\n\n\n\n\nFeb 1, 2016\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/2024-02-08-for-organizers.html",
     "href": "posts/2024-02-08-for-organizers.html",
     "title": "SJHPHL 2024 - Call for Projects and Mentors",
@@ -96,41 +138,6 @@
     "title": "SJHPHL 2024 - Call for Projects and Mentors",
     "section": "Contact us!",
     "text": "Contact us!\nWe’d love to hear from you about solutions you’d like Philly’s social justice innovators to design.\n\nReach out to us at info@socialjusticehackathon.com if you have ideas for projects for hackathon teams\nFill out this form to schedule a meeting with us to discuss how our hackathon can help you and the Philadelphia community."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "The Social Justice Hackathon will take place at University of Pennsylvania Carey Law School 3501 Sansom St, Philadelphia, PA 19104\n\n\n\n\n\n\n\n\n\nDate: March 12, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\nDate: March 27-29, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nMain Activity\nDescription\n\n\n\n\nDay 1, Friday, March 27th\nKickoff and Keynote\nHackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching.\n\n\nDay 2, Saturday, March 28th\nChallenge analysis and planning\nHackathon orientation sessions: design thinking, platforms and data available. Solutions design and development\n\n\nDay 3, Sunday, March 29th\nSolution development and presentation prep\nProject Final Submissions. Judging. Closing Ceremony\n\n\n\n\n\n\n\n\nUniversity of Pennsylvania Carey Law School 3501 Sansom St Philadelphia, PA 19104\n\n\n\n\n\n\n\n\nSee the “Directions & Transit” section on Penn Carey Law’s visiting page for directions and parking information."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events",
-    "section": "",
-    "text": "Date: March 12, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\nDate: March 27-29, 2026\n\n\n\nRegister now"
-  },
-  {
-    "objectID": "events.html#schedule",
-    "href": "events.html#schedule",
-    "title": "Events",
-    "section": "",
-    "text": "Day\nMain Activity\nDescription\n\n\n\n\nDay 1, Friday, March 27th\nKickoff and Keynote\nHackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching.\n\n\nDay 2, Saturday, March 28th\nChallenge analysis and planning\nHackathon orientation sessions: design thinking, platforms and data available. Solutions design and development\n\n\nDay 3, Sunday, March 29th\nSolution development and presentation prep\nProject Final Submissions. Judging. Closing Ceremony"
-  },
-  {
-    "objectID": "events.html#venue",
-    "href": "events.html#venue",
-    "title": "Events",
-    "section": "",
-    "text": "University of Pennsylvania Carey Law School 3501 Sansom St Philadelphia, PA 19104\n\n\n\n\n\n\n\n\nSee the “Directions & Transit” section on Penn Carey Law’s visiting page for directions and parking information."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "SJHPHL 2024 - Call for Projects and Mentors\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\n\nSJHPHL 2022 - Project Recap\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\nHackathon Committee\n\n\n\n\n\n\n\n\n\n\n\nThe Philly Social Justice Hackathon: Catalyzing Cross-disciplinary Problem Solving and Creative Collaboration in Legal Education\n\n\n\n\n\n#SJHPHL 2022 - CALICon Presentation\n\n\n\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\nThis weekend’s Philadelphia Social Justice Hackathon is a problem-solving sprint\n\n\n\n\n\n#SJHPHL 2022 - Philadelphia Inquirer Article\n\n\n\n\n\nOct 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nInto open data and social justice? This October hackathon at Drexel is for you\n\n\n\n\n\n#SJHPHL 2022 - Technical.ly Post\n\n\n\n\n\nSep 28, 2022\n\n\n\n\n\n\n\n\n\n\n\nSeattle Social Justice Hackathon 2015 - Recap & Demo Day\n\n\n\n\n\n#SSJH\n\n\n\n\n\nFeb 1, 2016\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "challenges.html",
@@ -161,10 +168,31 @@
     "text": "Featured Challenges\nThis section will contain a list of projects that participants can join. For now, this is a list of some projects from the last hackathon.\n\nCreate a one-stop digital guide to starting a restaurant in Philadelphia​\nGoal: Create an interactive and accessible digital informational resource for new Philadelphia restaurants about how to start a restaurant.\nThe Merchants Fund is focused on assisting with starting a restaurant which could be a gateway to financial growth in Philadelphia. Unfortunately, starting a restaurant requires navigating a labyrinth of shifting regulations, government agencies that cannot communicate with each other, and much more. This project would benefit new restaurant owners, particularly those starting a restaurant with limited English proficiency, whether written or spoken.\n\n\nBuild a tool for advocates to calculate SNAP benefits for clients​\nGoal: Compare and contrast existing SNAP calculators to determine whether they can be customized to maximize their effectiveness or whether a new, more effective tool can be built to meet advocates’ needs.\nThousands of families in Philadelphia depend on assistance to access healthy food. Thousands more are eligible for assistance but do not receive it. Many advocacy organizations around the city try to help families access the benefits they are entitled to, but unfortunately calculating benefits is challenging and requires a great deal of expertise.\nSome advocates rely on spreadsheets to help their staff make the calculations, but maintaining a spreadsheet is challenging. It must be regularly updated and a new copy distributed. The spreadsheet does not capture background knowledge advocates need, and sometimes there are new rules for eligibility which the current spreadsheet does not have the ability to handle. Other advocates rely on existing web applications that are designed to calculate SNAP benefits but those tools often require customization, have undesirable terms of service, and ultimately fall short of meeting their needs."
   },
   {
-    "objectID": "venue.html",
-    "href": "venue.html",
-    "title": "Venue",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
-    "text": "Venue details will be announced closer to the event."
+    "text": "The Social Justice Hackathon will take place at University of Pennsylvania Carey Law School 3501 Sansom St, Philadelphia, PA 19104\n\n\n\n\n\n\n\n\n\nDate: March 12, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\nDate: March 27-29, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nMain Activity\nDescription\n\n\n\n\nDay 1, Friday, March 27th\nKickoff and Keynote\nHackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching.\n\n\nDay 2, Saturday, March 28th\nChallenge analysis and planning\nHackathon orientation sessions: design thinking, platforms and data available. Solutions design and development\n\n\nDay 3, Sunday, March 29th\nSolution development and presentation prep\nProject Final Submissions. Judging. Closing Ceremony\n\n\n\n\n\n\n\n\nUniversity of Pennsylvania Carey Law School 3501 Sansom St Philadelphia, PA 19104\n\n\n\n\n\n\n\n\nSee the “Directions & Transit” section on Penn Carey Law’s visiting page for directions and parking information."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events",
+    "section": "",
+    "text": "Date: March 12, 2026\n\n\n\nRegister now\n\n\n\n\n\n\n\n\nDate: March 27-29, 2026\n\n\n\nRegister now"
+  },
+  {
+    "objectID": "events.html#schedule",
+    "href": "events.html#schedule",
+    "title": "Events",
+    "section": "",
+    "text": "Day\nMain Activity\nDescription\n\n\n\n\nDay 1, Friday, March 27th\nKickoff and Keynote\nHackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching.\n\n\nDay 2, Saturday, March 28th\nChallenge analysis and planning\nHackathon orientation sessions: design thinking, platforms and data available. Solutions design and development\n\n\nDay 3, Sunday, March 29th\nSolution development and presentation prep\nProject Final Submissions. Judging. Closing Ceremony"
+  },
+  {
+    "objectID": "events.html#venue",
+    "href": "events.html#venue",
+    "title": "Events",
+    "section": "",
+    "text": "University of Pennsylvania Carey Law School 3501 Sansom St Philadelphia, PA 19104\n\n\n\n\n\n\n\n\nSee the “Directions & Transit” section on Penn Carey Law’s visiting page for directions and parking information."
   }
 ]
