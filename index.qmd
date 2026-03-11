@@ -66,6 +66,10 @@ h1(
   class = "text-left hero-title",
   HTML("Social Justice Hackathon")
 )
+h4(
+    class="text-left",
+    HTML("A Tech for Change Hackathon")
+)
 h3(
     class="text-left",
     HTML("March 27th-29th @ Penn Carey Law School")
@@ -200,6 +204,15 @@ div(
         img(
             src="assets/sponsors/code-for-philly.png",
             alt="Code for Philly Logo"
+        )
+    ),
+    a(
+        href="https://www.pit-un.org",
+        target="_blank",
+        img(
+            src="assets/sponsors/pit-un.png",
+            alt="PIT-UN Logo",
+            style="max-height: 30px;"
         )
     ),
     #a(

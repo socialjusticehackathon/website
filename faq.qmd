@@ -1,0 +1,65 @@
+---
+title: FAQ
+---
+
+## General
+
+### What is a Social Justice Hackathon?
+
+A weekend event where students, programmers, faculty, justice advocates, public servants, community legal providers, writers, story-tellers, and members of the Philly community all come together to design creative solutions to respond to specific justice needs of Philly residents and neighborhoods.
+
+### Where is the Social Justice Hackathon?
+
+The hackathon will be hosted at The University of Pennsylvania Carey Law School at 3501 Sansom Street, Philadelphia, PA 19104.
+
+### What organizations are hosting this hackathon?
+
+The Philadelphia Social Justice Hackathon is proudly hosted by the law schools of the University of Pennsylvania, Drexel University, Villanova University, and Temple University. These four institutions are united in their commitment to community‑driven innovation and equitable access to justice.
+
+### Do I need any coding or hacking experience to attend this event?
+
+No coding or hacking experience is required. Our event is designed for all skill levels!
+
+### Do I need to pay any money to attend this event?
+
+No – all events are free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university!
+
+## Event Specific
+
+### What do I need to participate?
+
+You only need yourself. A computer or similar device is helpful but not required.
+
+### What can I build?
+
+Please submit a [project proposal form](https://docs.google.com/forms/d/e/1FAIpQLSfUVtuWdj3NytRAThzxfP9og4ZH9EJjzq1DSzb58CEmqItCcQ/viewform). We'll also hear project pitches during the opening session.
+
+### Will hardware be provided?
+
+No, hardware will not be provided.
+
+### What will team sizes be?
+
+Team sizes are flexible.
+
+### How are projects judged?
+
+Projects are evaluated using our published judging criteria.
+
+## Logistics
+
+### Will food and drink be provided?
+
+Yes. All meals, snacks, and drinks will be provided and available throughout the event.
+
+### Which days are the events?
+
+The event begins Friday evening, continues all day Saturday, and concludes Sunday afternoon.
+
+### Will the event run overnight?
+
+No, the event will not run overnight.
+
+---
+
+Still have questions? Please reach out to us at [socialjusticehackathonphl@gmail.com](mailto:socialjusticehackathonphl@gmail.com).
