@@ -91,13 +91,9 @@ add_info_card(
 
 ## Schedule
 
-### Keynote Speaker
-
-**Clarence Okoh** — Friday night keynote
-
 | Day | Main Activity | Description |
 | --- | --- | --- |
-| Day 1, Friday, March 27th | Kickoff and Keynote by Clarence Okoh | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. |
+| Day 1, Friday, March 27th | Kickoff and Keynote by [Clarence Okoh](https://www.clarenceokoh.com/) | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. |
 | Day 2, Saturday, March 28th | Challenge analysis and planning | Hackathon orientation sessions: design thinking, platforms and data available. Solutions design and development |
 | Day 3, Sunday, March 29th | Solution development and presentation prep | Project Final Submissions.  Judging.  Closing Ceremony |
 
