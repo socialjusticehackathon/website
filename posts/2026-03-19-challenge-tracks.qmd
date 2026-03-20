@@ -1,0 +1,66 @@
+---
+title: "SJHPHL 2026 - Challenge Tracks"
+author: "Hackathon Committee"
+date: "2026-03-19"
+categories: [news]
+toc: true
+---
+
+This document introduces the three tracks that organize the work of the Philadelphia Social Justice Hackathon. Each track focuses on a different part of the justice system where technology, data, and design can make a meaningful difference. Together, they help guide team formation, shape the kinds of projects participants pursue, and clarify the goals of the event for students, community partners, mentors, and judges.
+
+The three tracks---Rights Protection, Legal Empowerment, and Accountable Legal & Justice Systems---offer a framework for the weekend's work. They are meant to channel 36 hours of interdisciplinary collaboration toward ideas, tools, and approaches that respond to real challenges facing Philadelphia communities.
+
+## 1. Safeguarding Rights & Civil Liberties
+
+*Using technology and data to advance civil rights and shape systemic advocacy efforts*
+
+Digital systems increasingly shape decisions about housing, employment, healthcare, benefits, and criminal justice outcomes. These tools often promise neutrality or efficiency, but they can also reproduce the very inequalities they claim to reduce. Rights protections---such as due process, equal protection, privacy, and freedom from discrimination---must apply just as strongly when decisions are made through automated systems.
+
+This track focuses on building tools and using data that make digital decision-making more transparent and contestable. Projects may explore ways to detect bias in automated systems, help individuals understand when an algorithm has affected them, or create pathways for challenging unfair outcomes.
+
+**Participants might work on tools that address issues such as:**
+
+* Civil rights protections in areas like housing, employment, lending, healthcare, education, and criminal justice---especially when discrimination occurs through automated systems
+* Constitutional and human rights protections, including due process, equal protection, and freedom of expression, in the context of digital governance
+* Privacy safeguards that limit excessive data collection, surveillance, and misuse of personal information
+* Due process gaps that arise when automated systems make decisions about benefits, liberty, or opportunity without clear notice or appeal
+* Civic technology tools that help people exercise rights, such as voting access or filing civil rights complaints
+* Methods for detecting bias in algorithms, including auditing frameworks and impact assessments
+* The disproportionate effects of surveillance technologies---including facial recognition, predictive policing, and location tracking---on communities of color
+
+## 2. Legal Empowerment
+
+*Using technology and data to expand communities' ability to understand and exercise their rights*
+
+Many people facing serious problems---eviction, debt collection, benefit denials, workplace issues---do not recognize those situations as legal issues. Even when they do, most never receive legal assistance. The gap between legal need and legal help remains one of the defining access-to-justice challenges in the United States.
+
+Technology can help narrow that gap, but only when tools are designed in ways that people can actually use. That means plain language, mobile-friendly platforms, multilingual access, and systems built around the real pathways people follow when seeking help.
+
+Projects in this track focus on tools that strengthen people's ability to identify legal problems, access reliable information, and navigate systems that are often difficult to understand.
+
+**Participants might build tools that:**
+
+* Help individuals recognize when a situation has legal implications and identify possible next steps
+* Screen for eligibility for benefits, services, or legal assistance programs
+* Present legal information in accessible formats---plain language, visual guides, multilingual resources, and mobile-first design
+* Tailor legal guidance to a person's specific circumstances through conditional pathways
+* Support self-representation and court navigation with step-by-step guidance tools
+* Generate legal documents through guided form and document assembly systems
+* Connect individuals with legal aid organizations and community resources through referral and intake tools
+
+## 3. Accountable Legal Justice Systems
+
+*Using technology and data to strengthen transparency, oversight, and accountability in the legal and justice institutions*
+
+A justice system can only function fairly if the institutions that exercise legal power are subject to meaningful oversight. Judges, prosecutors, police departments, public defenders, and increasingly algorithmic systems all make decisions that profoundly affect people's lives. Accountability requires more than internal policies or professional norms. It requires systems that make information visible, enable scrutiny, and create mechanisms for addressing misconduct.
+
+This track focuses on building tools that strengthen transparency and oversight in justice institutions. Projects may explore ways to develop public data infrastructure, monitoring tools, or platforms that allow communities to track how justice institutions operate.
+
+**Participants might work on tools that support:**
+
+* Judicial oversight, including dashboards that track judicial performance, election guides, or systems that make discipline proceedings easier to understand
+* Prosecutorial transparency, such as trackers that document wrongful convictions, disclosure compliance, or conviction integrity reviews
+* Police accountability, including complaint platforms, misconduct databases, and tools that reveal patterns of systemic abuse
+* Public defense quality, such as tools that track caseloads or collect client feedback about representation
+* Court transparency, including portals that make court procedures and filings easier for self-represented litigants to navigate
+* Algorithmic accountability, including audit toolkits that allow communities to evaluate automated decision systems used by government agencies
