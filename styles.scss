@@ -46,6 +46,10 @@ table {
   background-color: #8f4b99;
   border-color: white;
   border-radius: 0.5rem;
+  a {
+    color: white;
+    text-decoration: underline dotted;
+  }
 }
 
 #quarto-header .nav-link {

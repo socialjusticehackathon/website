@@ -93,9 +93,52 @@ add_info_card(
 
 | Day | Main Activity | Description |
 | --- | --- | --- |
-| Day 1, Friday, March 27th | Kickoff and Keynote | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. |
+| Day 1, Friday, March 27th | Kickoff and Keynote by [Clarence Okoh](https://www.clarenceokoh.com/) | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. <br><br> [See our 3 challenge tracks for project suggestions](posts/2026-03-19-challenge-tracks.qmd) |
 | Day 2, Saturday, March 28th | Challenge analysis and planning | Hackathon orientation sessions: design thinking, platforms and data available. Solutions design and development |
-| Day 3, Sunday, March 29th | Solution development and presentation prep | Project Final Submissions.  Judging.  Closing Ceremony |
+| Day 3, Sunday, March 29th | Solution development and presentation prep | Project Final Submissions.  Judging.  Closing Ceremony <br><br> The winning project will be advanced to the [Information Architecture Conference](https://www.theiaconference.com/) design hackathon. |
+
+## Speakers
+
+```{r speakers}
+library(commonmark)
+
+add_speaker_card <- function(name, img, bio, link = NULL) {
+  general_card_div(
+    div(
+      class = "card-body text-center",
+      a(
+        img(src = file.path("assets/speakers", img), height = "100px"),
+        href = link
+      ),
+      p(
+        class = "text-center mt-3",
+        a(name, href = link),
+        style = "font-size: 1.2rem;"
+      ),
+      p(
+        class = "text-center person-bio",
+        HTML(commonmark::markdown_html(bio))
+      )
+    ),
+    lg = 2, md = 2, sm = 1, xs = 1
+  )
+}
+
+tagList(
+  add_speaker_card(
+    name = "Clarence Okoh",
+    img = "clarence-okoh.png",
+    link = "https://www.clarenceokoh.com/",
+    bio = "**Friday Keynote.** Clarence holds over a decade of experience advancing social change through legal and policy advocacy. He is a nationally recognized expert on the role of emerging technologies in producing racial and social inequality through algorithmic racism, mass surveillance, and other privacy and civil rights abuses. He offers a wide breadth of experience: from serving as the first digital justice litigator at the NAACP Legal Defense Fund to leading community-based direct services in his native Alabama."
+  ),
+  add_speaker_card(
+    name = "Jaimie Yakaboski",
+    img = "jaimie-yakaboski.jpeg",
+    link = "https://www.linkedin.com/in/jaimie-yakaboski/",
+    bio = "**Saturday Workshop: Design Thinking & Structured Problem Solving.** Jaimie is a seven year veteran in Digital Product Design and UX with a special interest in systemic design and design within healthcare. They enjoy seeking opportunities to solve complex problems with creative solutions grounded in research and data.\n\nJaimie spent six and a half years with Independence Blue Cross, but now seeks their next opportunity. Jaimie is on the volunteer board running IAC26 and also frequents [Philly CHI](https://www.meetup.com/PhillyCHI/), Philly's local chapter for UX Professionals!"
+  )
+) |> div(class = "list grid")
+```
 
 ## Venue
 

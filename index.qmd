@@ -215,22 +215,22 @@ div(
             style="max-height: 30px;"
         )
     ),
-    #a(
-    #    href="https://neota.com/",
-    #    target="_blank",
-    #    img(
-    #        src="assets/sponsors/neota-logo.png",
-    #        alt="Neota Logo"
-    #    )
-    #),
-    #a(
-    #    href="https://www.gavel.io",
-    #    target="_blank",
-    #    img(
-    #        src="assets/sponsors/Gavel logo with transparent background.png",
-    #        alt="Gavel Logo"
-    #    )
-    #),
+    a(
+        href="https://neota.com/",
+        target="_blank",
+        img(
+            src="assets/sponsors/neota-logo.png",
+            alt="Neota Logo"
+        )
+    ),
+    a(
+        href="https://www.gavel.io",
+        target="_blank",
+        img(
+            src="assets/sponsors/Gavel logo with transparent background.png",
+            alt="Gavel Logo"
+        )
+    ),
     #a(
     #    href="https://badgecert.com/",
     #    target="_blank",
@@ -240,5 +240,20 @@ div(
     #    )
     #)
 )
+
+div(
+    class="text-center mt-4 p-3 rounded-3",
+    style="border: 1px solid white; max-width: 600px; margin: 0 auto;",
+    p("Winners of the Social Justice Hackathon will advance to the Internet Architecture Conference design hackathon, where IAC26 attendees will collaborate on design and strategy for that project."),
+    a(
+        href="https://www.theiaconference.com/",
+        target="_blank",
+        img(
+            src="assets/sponsors/IAC26-Graphic.jpg",
+            alt="IAC 2026 Graphic",
+            style="max-width: 450px; width: 100%; border-radius: 0.3rem;"
+        )
+    )
+)
 ```
-:::::: 
+::::::
