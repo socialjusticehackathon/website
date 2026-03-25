@@ -93,7 +93,7 @@ add_info_card(
 
 | Day | Main Activity | Description |
 | --- | --- | --- |
-| Day 1, Friday, March 27th | Kickoff and Keynote by [Clarence Okoh](https://www.clarenceokoh.com/) | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. <br><br> [See our 3 challenge tracks for project suggestions](posts/2026-03-19-challenge-tracks.qmd) |
+| Day 1, Friday, March 27th | Kickoff and Keynote by [Clarence Okoh](https://www.clarenceokoh.com/) | Hackathon Project Pitches by Project Sponsors and Participants; Team Formation and Matching. <br><br> [Project suggestions: 3 challenge tracks](posts/2026-03-19-challenge-tracks.qmd) <br> [Code of conduct](assets/sjhphl-2026-code-of-conduct.pdf) <br> [Judging criteria](assets/sjhphl-2026-judging-criteria.pdf) |
 | Day 2, Saturday, March 28th | Challenge analysis and planning | Hackathon orientation sessions: design thinking, platforms and data available. Solutions design and development |
 | Day 3, Sunday, March 29th | Solution development and presentation prep | Project Final Submissions.  Judging.  Closing Ceremony <br><br> The winning project will be advanced to the [Information Architecture Conference](https://www.theiaconference.com/) design hackathon. |
 
