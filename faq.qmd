@@ -24,6 +24,10 @@ No coding or hacking experience is required. Our event is designed for all skill
 
 No – all events are free to attend and open to all participants, regardless of coding experience or affiliation with an organization or university!
 
+### Is there a code of conduct?
+
+Yes. All participants are expected to follow our [code of conduct](assets/sjhphl-2026-code-of-conduct.pdf).
+
 ## Event Specific
 
 ### What do I need to participate?
@@ -44,7 +48,7 @@ Team sizes are flexible.
 
 ### How are projects judged?
 
-Projects are evaluated using our published judging criteria.
+Projects are evaluated using our published [judging criteria](assets/sjhphl-2026-judging-criteria.pdf).
 
 ## Logistics
 

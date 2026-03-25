@@ -9,3 +9,10 @@ _site
 .Rdata
 .Rhistory
 .Rproj.user
+
+# OS / editor ----
+.DS_Store
+.vscode/
+
+# Temp ----
+_tmp/
