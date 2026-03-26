@@ -1,0 +1,21 @@
+---
+title: "SJHPHL 2026 - Judging Criteria"
+author: "Hackathon Committee"
+date: "2026-03-26"
+categories: [news]
+description: "Judging criteria for the 2026 Philadelphia Social Justice Hackathon."
+toc: true
+---
+
+This post provides the judging criteria for the 2026 Social Justice Hackathon. See also the [challenge tracks](2026-03-19-challenge-tracks.qmd) and [code of conduct](2026-03-26-code-of-conduct-judging-criteria.qmd).
+
+Projects are scored on a 1--5 scale across six categories:
+
+| Category | 5 -- Excellent | 4 -- Very Good | 3 -- Good | 2 -- Limited | 1 -- Poor |
+| --- | --- | --- | --- | --- | --- |
+| **Innovation & Creativity** | Highly original; novel use of technology | Creative with unique elements | Some originality; common approach | Minimal originality; derivative | No clear innovation |
+| **Impact & Community Relevance** | Deep understanding of community needs, significant impact potential | Addresses the problem(s) and impacts the community's needs in a meaningful way | Addresses the problem in an incomplete way; impact is limited or unclear | Weak relevance to community need, unclear impact | No clear problem, does not reflect the community's needs |
+| **Design & User Experience** | Polished, intuitive, and accessible | Clear and usable design | Functional but unpolished | Confusing experience | Not usable |
+| **Feasibility & Scalability** | Highly feasible and scalable | Feasible with minor limits | Feasible with challenges | Difficult to scale | Unrealistic |
+| **Technical Execution & Interdisciplinary Development** | Fully functional; strong implementation | Mostly functional; minor issues | Partially functional; basic build | Major technical issues | Non-functional, has major bugs |
+| **Equity & Ethical Consideration** | Demonstrates strong ethical awareness; implements concrete safeguards | Clearly identifies any major risks; proposes a realistic safeguard | Identified specific risks; limited or unclear mitigation steps | Basic ethical risks briefly recognized; discussion is incomplete | No clear consideration; sensitive harms, biases, or misuses are unaddressed |

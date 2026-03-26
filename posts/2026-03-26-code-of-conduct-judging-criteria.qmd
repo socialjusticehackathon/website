@@ -1,0 +1,62 @@
+---
+title: "SJHPHL 2026 - Code of Conduct"
+author: "Hackathon Committee"
+date: "2026-03-26"
+categories: [news]
+description: "Code of conduct for the 2026 Philadelphia Social Justice Hackathon."
+toc: true
+---
+
+This post provides the code of conduct for the 2026 Social Justice Hackathon. See also the [challenge tracks](2026-03-19-challenge-tracks.qmd) and [judging criteria](2026-03-26-judging-criteria.qmd).
+
+The organizers of the Philadelphia Social Justice Hackathon are committed to creating a safe and welcoming environment for all of its participants. We believe that everyone has the right to hack in a diverse and inclusive environment---free from discrimination or harassment. Creating and maintaining this environment throughout the Hackathon is a shared responsibility for the benefit of all, as we endeavor to collaborate with one another in pursuit of tech solutions that promote social justice within our Philadelphia community.
+
+Our Code of Conduct outlines the standards of behavior that we expect participants of the Hackathon to abide by. All participants must follow these guidelines while participating in any aspect of the Hackathon. Importantly, this Code of Conduct applies equally to all members of the community, including attendees, participants, judges, sponsors, organizers, and volunteers, regardless of age, gender, race, ethnicity, nationality, sexual orientation, gender identity or expression, mental or physical disability, physical appearance, neurodiversity, religion, political affiliation, level of knowledge or experience, or any other attribute.
+
+Please see the outlined standards below.
+
+## Accessibility & Accommodation
+
+The Hackathon is committed to accessibility and inclusion for its participants. Participants who may require accommodation are encouraged to contact the organizing team in advance so that we can work together to support your participation.
+
+## Professionalism
+
+We ask that all participants conduct themselves in a professional manner throughout the Hackathon. This includes treating other participants with respect, working cooperatively amongst your team, and refraining from otherwise discriminatory or harassing behavior.
+
+## Respect for Others' Opinions and Abilities
+
+The Hackathon is purposefully designed to bring together people with a wide range of opinions, skills, and experiences to collaborate toward our shared goal of promoting social justice via a tech solution. While we expect that participants may disagree, all disagreements must be expressed respectfully. Additionally, participants must educate each other respectfully. To this end, we request that participants not assume others' level of knowledge and not disparage a lack of information or insist on unnecessary precision.
+
+## Responsible Data Handling
+
+When developing their proposed solutions, participants must observe proper data-handling protocols, including appropriately classifying data as public or private, anonymizing private data, and ensuring that such data is not improperly disclosed, misused, or re-identified.
+
+## User Privacy, Security, & Consent
+
+The proposed solutions themselves must also handle data and anticipated data collection responsibly. This includes respecting privacy, ensuring security, and obtaining consent. Proposed solutions must not collect, store, or share personal information in ways that compromise safety, dignity, or rights.
+
+## Anti-Discrimination
+
+Discrimination in any form is not tolerated during the Hackathon. This includes discrimination in participation, collaboration, and evaluation. While the organizing team of the Hackathon will ensure that proposed solutions be judged fairly without discriminatory bias, we also ask that the proposed solutions themselves not:
+
+- Discriminate against individuals or communities
+- Enable profiling, targeting, or exclusion
+- Promote harm toward marginalized groups
+- Facilitate surveillance, criminalization, or oppressive systems
+- Encode bias through data, design, or deployment
+
+## Anti-Harassment
+
+Harassment is any unwelcome or hostile behavior towards another person for any reason. This includes, but is not limited to, offensive verbal comments related to personal characteristics, sexual images or comments, deliberate intimidation, bullying, stalking, following, harassing photography or recording, sustained disruption of discussion or events, nonconsensual publication of private comments, inappropriate physical contact, or unwelcome sexual attention. Intent is not required for behavior to be considered harassment.
+
+## Consequences for Discrimination & Harassment
+
+Participants who engage in discriminatory or harassing behavior will be subject to action deemed appropriate by the organizing team of the Hackathon. Such actions include warnings or removal from the Hackathon entirely.
+
+## Compliance with Legal Standards
+
+Participants must agree to abide by all applicable local, state, national, and international laws, regulations, and standards throughout the Hackathon. The organizers reserve the right to review any projects developed during the Hackathon for compliance with such legal and ethical standards. In the event that concerns arise regarding the legality or ethical implications of any project, the organizers will initiate a dialogue with the participants involved in such. This conversation will aim to address the concerns raised and to provide participants with an opportunity to explain their project's intent, functionality, and potential impact. Depending on the outcome of this dialogue and the severity of concerns, the organizing team reserves the right to take reasonable and appropriate action on that project. This may include providing guidance to modify the project to ensure compliance with legal standards, requesting the cessation of work on the project, or, in extreme cases, disqualifying the project from the Hackathon. The organizing team is committed to handling all concerns regarding a project's legality with fairness and transparency.
+
+## Reporting
+
+We strongly encourage you to report any incidents of discrimination, harassment, or other violations of this Code of Conduct. If you experience or observe behavior that does not align with these standards, please contact an organizer directly through Signal or DevPost.
