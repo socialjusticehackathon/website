@@ -6,6 +6,8 @@ categories: [news]
 toc: true
 ---
 
+This post provides the challenge tracks for the 2026 Social Justice Hackathon. See also the [code of conduct](2026-03-26-code-of-conduct-judging-criteria.qmd) and [judging criteria](2026-03-26-judging-criteria.qmd).
+
 This document introduces the three tracks that organize the work of the Philadelphia Social Justice Hackathon. Each track focuses on a different part of the justice system where technology, data, and design can make a meaningful difference. Together, they help guide team formation, shape the kinds of projects participants pursue, and clarify the goals of the event for students, community partners, mentors, and judges.
 
 The three tracks---Rights Protection, Legal Empowerment, and Accountable Legal & Justice Systems---offer a framework for the weekend's work. They are meant to channel 36 hours of interdisciplinary collaboration toward ideas, tools, and approaches that respond to real challenges facing Philadelphia communities.
