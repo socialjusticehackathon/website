@@ -1,0 +1,19 @@
+---
+title: "SJHPHL 2026 - Code of Conduct & Judging Criteria"
+author: "Hackathon Committee"
+date: "2026-03-26"
+categories: [news]
+description: "View our code of conduct and judging criteria for the 2026 Philadelphia Social Justice Hackathon."
+---
+
+## Code of Conduct
+
+<iframe src="../assets/sjhphl-2026-code-of-conduct.pdf" width="100%" height="800px"></iframe>
+
+[Download Code of Conduct (PDF)](../assets/sjhphl-2026-code-of-conduct.pdf)
+
+## Judging Criteria
+
+<iframe src="../assets/sjhphl-2026-judging-criteria.pdf" width="100%" height="800px"></iframe>
+
+[Download Judging Criteria (PDF)](../assets/sjhphl-2026-judging-criteria.pdf)
