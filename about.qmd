@@ -214,7 +214,7 @@ div(
 div(
     class="text-center mt-4 p-3 rounded-3",
     style="border: 1px solid white; max-width: 600px; margin: 0 auto;",
-    p("Winners of the Social Justice Hackathon will advance to the Internet Architecture Conference design hackathon, where IAC26 attendees will collaborate on design and strategy for that project."),
+    p("Winners of the Social Justice Hackathon will advance to the Information Architecture Conference design hackathon, where IAC26 attendees will collaborate on design and strategy for that project."),
     a(
         href="https://www.theiaconference.com/",
         target="_blank",
